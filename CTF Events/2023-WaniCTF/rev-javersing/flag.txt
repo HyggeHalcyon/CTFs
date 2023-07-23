@@ -1,0 +1,1 @@
+FLAG{Decompiling_java_is_easy}

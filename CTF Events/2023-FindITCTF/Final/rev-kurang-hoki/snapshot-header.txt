@@ -1,0 +1,15 @@
+========== Flutter Snapshot Header Parser ============
+[1;37;1mSnapshot[0m
+	offset  = 24576 (0x6000)
+	size    = 5314
+	kind    = SnapshotKindEnum.kMessage
+	version = 2.0.6
+	features= product no-dwarf_stack_traces_mode no-causal_async_stacks lazy_async_stacks no-lazy_dispatchers use_bare_instructions dedup_instructions no-"asserts" x64-sysv no-null-safety
+-----------
+[1;37;1mSnapshot[0m
+	offset  = 2199552 (0x219000)
+	size    = 794730
+	kind    = SnapshotKindEnum.kMessage
+	version = 2.0.6
+	features= product no-dwarf_stack_traces_mode no-causal_async_stacks lazy_async_stacks no-lazy_dispatchers use_bare_instructions dedup_instructions no-"asserts" x64-sysv no-null-safety
+-----------

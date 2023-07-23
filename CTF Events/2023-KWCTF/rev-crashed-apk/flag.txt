@@ -1,0 +1,2 @@
+# Flag commented at AndroidManifest.xml
+KWCTF{first_step_become_to_reverse_engineer}

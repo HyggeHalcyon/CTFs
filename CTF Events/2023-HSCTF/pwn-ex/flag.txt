@@ -1,0 +1,1 @@
+flag{I_wonder_if_there's_an_emacs_command_for_writing_pwn_exploits?}
