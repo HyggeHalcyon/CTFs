@@ -2,8 +2,8 @@
 ## International Events
 | Event | Year  | Solves | Category | Team Banner | Rank | Writeup |
 | --- | --- | :---: | :---: |  :---: |  :---: | :---: |
-| Imaginary CTF | 2023  | TBA | Pwn | TCP1P | TBA | - |
-| The Odyssey CTF | 2023  | 2 | Pwn | aseng fans club | TBA | - |
+| Imaginary CTF | 2023  | 3 | Pwn | TCP1P | ? / ? | soon |
+| The Odyssey CTF | 2023  | 2 | Pwn | aseng fans club | 1st / 150 | - |
 | BDSec CTF | 2023  | 3 | Pwn | HCS | 1st / 719 | - |
 | Amateurs CTF | 2023  | 7 | Pwn | HCS | 25/914 | - |
 | ångstrom CTF | 2023 | 7 | Pwn, Rev, Crypto | HCS | 259/1429 | - 
