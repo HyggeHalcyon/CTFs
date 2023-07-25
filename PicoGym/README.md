@@ -1,12 +1,14 @@
 # PicoGym
 | Challenge | Category | Description | 
 | --- | :---: | --- |
+| function overwrite | Pwn | negative index unchecked |  
+| flag leak | Pwn | stack format string leak |   
 | New Caesar | Crypto | TBA |
 | The Numbers | Crypto | mapping ascii to -1 index |
 | Easy Peasy | Crypto | reused xor key |
 | Minds your Ps and Qs | Crypto | classic RSA with small Modulo | 
-| ropfu | Pwn | TBA |
-| fermat strings | Pwn | TBA |
+| ropfu | Pwn | rop2syscall |
+| fermat strings | Pwn | format string overwrite GOT to main, leak libc, GOT to system |
 | x-sixty-what | Pwn | ret2win |
 | VNE | Pwn | abusing unfiltered user input |
 | Guessing Game 1 | Pwn | unseed random and rop to syscall |

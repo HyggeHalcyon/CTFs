@@ -1,4 +1,4 @@
-# pwnable.kr 2023
+# pwnable.kr
 [play it yourself](https://pwnable.kr/index.php)      
   
 ## Toddler's Bottle
@@ -10,3 +10,5 @@
 | flag | binary packing and reverse engineering |
 | passcode | unproper pass by reference in scanf |
 | random | unseed random |
+| input | TBA |
+| leg | TBA |
