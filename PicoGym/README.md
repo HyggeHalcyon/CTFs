@@ -1,6 +1,7 @@
 # PicoGym
 | Challenge | Category | Description | 
 | --- | :---: | --- |
+| seed sPRiNG | Pwn | random with current time seed |
 | function overwrite | Pwn | negative index unchecked |  
 | flag leak | Pwn | stack format string leak |   
 | New Caesar | Crypto | TBA |
