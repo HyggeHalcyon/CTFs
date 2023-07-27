@@ -11,6 +11,13 @@
 | pivot | ❌ | ❌ | ❌ | ❌ | Description | 
 | ret2csu | ❌ | ❌ | ❌ | ❌ | Description | 
 
+## Angr CTF
+[repo](https://github.com/jakespringer/angr_ctf)
+| Challenge | Description | 
+| --- | --- |
+| angr_find | baby |
+
+
 ## TryHackMe
 | Room | Category | Description | 
 | --- | :---: | --- |
