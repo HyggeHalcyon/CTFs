@@ -16,16 +16,16 @@
 | --- | --- |
 | find | baby angr |
 | avoid | avoiding call to a bad function |
-| find condition | combined both above, with a different succes methodology |
-| symbolic registers | controlling registers that takes user input |
-| symbolic stack | replicating the stack frame creating and controlling user input in the stack |
+| find condition | combining both practice + different success methodology |
+| symbolic registers | controlling registers where user input is stored |
+| symbolic stack | replicating the stack frame creation and controlling user input in the stack |
 | symbolic memory | controlling user input in the global variable |
 | symbolic dynamic memory | controlling user input that is being dynamically allocated by malloc |
-| symbolic file |  |
+| symbolic file | dealing with file descriptors where user input is stored and loaded |
+
 based upon this [repo](https://github.com/jakespringer/angr_ctf)
 
 ## TryHackMe
 | Room | Category | Description | 
 | --- | :---: | --- |
 | PWN101 | Pwn | basic stack-based challenges  | 
-| Reversing ELF | Rev | unsolved  | 

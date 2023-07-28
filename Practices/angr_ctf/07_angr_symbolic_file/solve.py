@@ -8,39 +8,21 @@ from IPython import embed
 
 def main(exe):
     proj = angr.Project(exe)
-    initial_state = proj.factory.entry_state(adrr=start)
+    initial_state = proj.factory.entry_state(adrr=0x80488e5)
 
     # creating bitvectors
-    rdi =  claripy.BVS('rdi', 32)
-    rdx =  claripy.BVS('rsi', 32)
-    
-    # manipulating registers
-    initial_state.regs.rdi = rdi
-    initial_state.regs.rsi = rsi
+    contents =  claripy.BVS('contents', 64*8)
+    fd = angr.storage.SimFile("FOQVSBZB.txt", content=contents)
 
     # manipulating memory
-    initial_state.memory.store(memory, value, endianness=proj.arch.memory_endness, size=8)
-
-    # manipulating stack
-    initial_state.stack_push(value)
-    initial_state.stack_push(value)
+    initial_state.fs.insert("FOQVSBZB.txt" ,fd)
 
     simulation = proj.factory.simgr(initial_state)
-    
-    # alternative simulation explore method
-    def successful(state):
-        stdout = state.posix.dumps(sys.stdout.fileno())
-        return 'String if successful'.encode() in stdout
-    
-    def abort(state):
-        stdout = state.posix.dumps(sys.stdout.fileno())
-        return 'String if failed'.encode() in stdout
-    
-    simulation.explore(find=success, avoid=abort)
+    simulation.explore(find=0x804899e, avoid=0x8048984)
     return simulation
     
 if __name__ == '__main__':
-    exe = './'
+    exe = './symbolic_file'
     simulation = main(exe)
 
     if simulation.found:
@@ -48,4 +30,4 @@ if __name__ == '__main__':
     else:
         raise Exception('Solution not found')    
     
-    # 
+    # OBAXRUZT\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00

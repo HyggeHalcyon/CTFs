@@ -25,6 +25,11 @@ def main(exe):
     initial_state.stack_push(value)
     initial_state.stack_push(value)
 
+    # dealing with file descriptors
+    contents =  claripy.BVS('contents', 64*8)
+    fd = angr.storage.SimFile("FOQVSBZB.txt", content=contents)
+    initial_state.fs.insert("FOQVSBZB.txt" ,fd)
+
     simulation = proj.factory.simgr(initial_state)
     
     # alternative simulation explore method
