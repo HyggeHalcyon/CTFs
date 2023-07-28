@@ -12,11 +12,17 @@
 | ret2csu | ❌ | ❌ | ❌ | ❌ | Description | 
 
 ## Angr CTF
-[repo](https://github.com/jakespringer/angr_ctf)
 | Challenge | Description | 
 | --- | --- |
-| angr_find | baby |
-
+| find | baby angr |
+| avoid | avoiding call to a bad function |
+| find condition | combined both above, with a different succes methodology |
+| symbolic registers | controlling registers that takes user input |
+| symbolic stack | replicating the stack frame creating and controlling user input in the stack |
+| symbolic memory | controlling user input in the global variable |
+| symbolic dynamic memory | controlling user input that is being dynamically allocated by malloc |
+| symbolic file |  |
+based upon this [repo](https://github.com/jakespringer/angr_ctf)
 
 ## TryHackMe
 | Room | Category | Description | 
