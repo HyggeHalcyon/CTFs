@@ -1,0 +1,19 @@
+#!/bin/sh
+
+/bin/busybox --install -s
+
+stty raw -echo
+
+chown -R 0:0 /
+
+mkdir -p /proc && mount -t proc none /proc
+mkdir -p /dev  && mount -t devtmpfs devtmpfs /dev
+mkdir -p /tmp  && mount -t tmpfs tmpfs /tmp
+
+echo 1 > /proc/sys/kernel/kptr_restrict
+echo 1 > /proc/sys/kernel/dmesg_restrict
+chmod 400 /proc/kallsyms
+
+insmod /hackme.ko
+chmod 666 /dev/hackme
+

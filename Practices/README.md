@@ -29,3 +29,15 @@ based upon this [repo](https://github.com/jakespringer/angr_ctf)
 | Room | Category | Description | 
 | --- | :---: | --- |
 | PWN101 | Pwn | basic stack-based challenges  | 
+
+## Notable Writeups
+Good intro to Kernelspace pwn    
+https://ret2school.github.io/post/iwindow/    
+https://hackmd.io/@capri/SyQS6Eo9n     
+https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/     
+
+House of Botcake and FSOP     
+https://sekai.team/blog/imaginary-ctf-2023/mailman/#secrets    
+https://ret2school.github.io/post/catastrophe/     
+https://ctftime.org/writeup/34804   
+https://ret2school.github.io/post/catastrophe/     

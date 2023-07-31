@@ -6,7 +6,7 @@ For challenges I've created, please follow this [repo](https://github.com/HyggeH
 ## Research Interest
 - Game Hacking   
 - Mobile application security   
-- Malware Development  
+- Detection Engineering
 
 ## Tools
 | Name | Category | Description |
