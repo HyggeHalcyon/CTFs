@@ -1,0 +1,89 @@
+Gadgets information
+============================================================
+0x0000000000401018 : adc ch, dh ; jmp qword ptr [rdx]
+0x0000000000401032 : add byte ptr [rax + rbp*8 + 0x48], al ; add esp, esi ; fdivp st(1) ; jmp qword ptr [rdx]
+0x0000000000401046 : add byte ptr [rax + rbp*8 - 7], al ; jmp qword ptr [rdx]
+0x0000000000401080 : add byte ptr [rax], al ; syscall
+0x000000000040100b : add dword ptr [eax - 1], ecx ; rcr dh, 0xf1 ; jmp qword ptr [rdx]
+0x000000000040100c : add dword ptr [rax - 1], ecx ; rcr dh, 0xf1 ; jmp qword ptr [rdx]
+0x000000000040103d : add ebp, ebx ; wait ; jmp qword ptr [rbp - 0x39]
+0x0000000000401036 : add esp, esi ; fdivp st(1) ; jmp qword ptr [rdx]
+0x000000000040103c : add rbp, rbx ; wait ; jmp qword ptr [rbp - 0x39]
+0x0000000000401035 : add rsp, rsi ; fdivp st(1) ; jmp qword ptr [rdx]
+0x0000000000401017 : and al, 0x10 ; cmc ; jmp qword ptr [rdx]
+0x000000000040104b : and bl, byte ptr [rcx + 0x48] ; mov ecx, edx ; pop rdx ; jmp qword ptr [rcx]
+0x0000000000401013 : and cl, byte ptr [rax + 0x2b] ; je 0x40103c ; adc ch, dh ; jmp qword ptr [rdx]
+0x0000000000401059 : and cl, byte ptr [rax - 0x6e] ; fdivp st(1) ; jmp qword ptr [rcx]
+0x0000000000401021 : and cl, byte ptr [rax - 0x73] ; or al, 0xd9 ; std ; jmp qword ptr [rcx]
+0x000000000040101b : and cl, byte ptr [rax - 0x77] ; loope 0x40101d ; jmp qword ptr [rdx]
+0x0000000000401052 : and dword ptr [rax - 1], ecx ; rcr esi, 0xf1 ; jmp qword ptr [rdx]
+0x000000000040105f : and dword ptr [rax - 1], ecx ; ret
+0x0000000000401019 : cmc ; jmp qword ptr [rdx]
+0x0000000000401090 : dec dword ptr [rax - 0x73] ; mov edx, 0xc0 ; syscall
+0x000000000040105c : fdivp st(1) ; jmp qword ptr [rcx]
+0x0000000000401038 : fdivp st(1) ; jmp qword ptr [rdx]
+0x0000000000401010 : fdivrp st(1) ; jmp qword ptr [rdx]
+0x0000000000401025 : fscale ; jmp qword ptr [rcx]
+0x0000000000401037 : hlt ; fdivp st(1) ; jmp qword ptr [rdx]
+0x000000000040100e : inc eax ; fdivrp st(1) ; jmp qword ptr [rdx]
+0x0000000000401061 : inc ebx ; fdivrp st(1) ; jmp qword ptr [rdx]
+0x0000000000401054 : inc ecx ; fdivrp st(1) ; jmp qword ptr [rdx]
+0x000000000040100d : inc rax ; fdivrp st(1) ; jmp qword ptr [rdx]
+0x0000000000401060 : inc rbx ; fdivrp st(1) ; jmp qword ptr [rdx]
+0x0000000000401053 : inc rcx ; fdivrp st(1) ; jmp qword ptr [rdx]
+0x0000000000401011 : int1 ; jmp qword ptr [rdx]
+0x0000000000401016 : je 0x40103c ; adc ch, dh ; jmp qword ptr [rdx]
+0x000000000040102f : jmp qword ptr [rbp - 0x17bc0000]
+0x0000000000401040 : jmp qword ptr [rbp - 0x39]
+0x0000000000401027 : jmp qword ptr [rcx]
+0x000000000040100a : jmp qword ptr [rdi + 1]
+0x0000000000401012 : jmp qword ptr [rdx]
+0x0000000000401023 : lea ecx, [rcx + rbx*8] ; std ; jmp qword ptr [rcx]
+0x0000000000401092 : lea esi, [rsi] ; mov edx, 0xc0 ; syscall
+0x0000000000401022 : lea rcx, [rcx + rbx*8] ; std ; jmp qword ptr [rcx]
+0x0000000000401091 : lea rsi, [rsi] ; mov edx, 0xc0 ; syscall
+0x000000000040101e : loope 0x40101d ; jmp qword ptr [rdx]
+0x0000000000401043 : mov byte ptr [rdi - 0x17bc0000], ah ; stc ; jmp qword ptr [rdx]
+0x000000000040104e : mov ecx, edx ; pop rdx ; jmp qword ptr [rcx]
+0x000000000040101d : mov ecx, esp ; std ; jmp qword ptr [rdx]
+0x0000000000401094 : mov edx, 0xc0 ; syscall
+0x000000000040107d : mov edx, 8 ; syscall
+0x000000000040107b : mov esi, esp ; mov edx, 8 ; syscall
+0x000000000040104d : mov rcx, rdx ; pop rdx ; jmp qword ptr [rcx]
+0x000000000040101c : mov rcx, rsp ; std ; jmp qword ptr [rdx]
+0x000000000040107a : mov rsi, rsp ; mov edx, 8 ; syscall
+0x0000000000401024 : or al, 0xd9 ; std ; jmp qword ptr [rcx]
+0x000000000040107e : or byte ptr [rax], al ; add byte ptr [rax], al ; syscall
+0x000000000040107c : out 0xba, al ; or byte ptr [rax], al ; add byte ptr [rax], al ; syscall
+0x0000000000401003 : pop rbp ; pop rdx ; pop rcx ; pop rbx ; xor rax, rax ; jmp qword ptr [rdi + 1]
+0x0000000000401006 : pop rbx ; xor rax, rax ; jmp qword ptr [rdi + 1]
+0x000000000040104c : pop rcx ; mov rcx, rdx ; pop rdx ; jmp qword ptr [rcx]
+0x0000000000401005 : pop rcx ; pop rbx ; xor rax, rax ; jmp qword ptr [rdi + 1]
+0x0000000000401001 : pop rdi ; pop rsi ; pop rbp ; pop rdx ; pop rcx ; pop rbx ; xor rax, rax ; jmp qword ptr [rdi + 1]
+0x0000000000401050 : pop rdx ; jmp qword ptr [rcx]
+0x0000000000401004 : pop rdx ; pop rcx ; pop rbx ; xor rax, rax ; jmp qword ptr [rdi + 1]
+0x0000000000401002 : pop rsi ; pop rbp ; pop rdx ; pop rcx ; pop rbx ; xor rax, rax ; jmp qword ptr [rdi + 1]
+0x000000000040100f : rcr dh, 0xf1 ; jmp qword ptr [rdx]
+0x000000000040104f : rcr dword ptr [rdx - 1], 1 ; and dword ptr [rax - 1], ecx ; rcr esi, 0xf1 ; jmp qword ptr [rdx]
+0x0000000000401055 : rcr esi, 0xf1 ; jmp qword ptr [rdx]
+0x0000000000401062 : ret
+0x0000000000401009 : sar bh, 0x67 ; add dword ptr [rax - 1], ecx ; rcr dh, 0xf1 ; jmp qword ptr [rdx]
+0x000000000040102c : setne ah ; jmp qword ptr [rbp - 0x17bc0000]
+0x000000000040105d : stc ; jmp qword ptr [rcx]
+0x0000000000401039 : stc ; jmp qword ptr [rdx]
+0x0000000000401026 : std ; jmp qword ptr [rcx]
+0x000000000040101f : std ; jmp qword ptr [rdx]
+0x0000000000401015 : sub esi, dword ptr [rsp + 0x10] ; cmc ; jmp qword ptr [rdx]
+0x0000000000401014 : sub rsi, qword ptr [rsp + 0x10] ; cmc ; jmp qword ptr [rdx]
+0x0000000000401082 : syscall
+0x000000000040103f : wait ; jmp qword ptr [rbp - 0x39]
+0x0000000000401068 : xchg edi, ecx ; std ; jmp qword ptr [rdx]
+0x000000000040105b : xchg edx, eax ; fdivp st(1) ; jmp qword ptr [rcx]
+0x0000000000401067 : xchg rdi, rcx ; std ; jmp qword ptr [rdx]
+0x000000000040105a : xchg rdx, rax ; fdivp st(1) ; jmp qword ptr [rcx]
+0x0000000000401008 : xor eax, eax ; jmp qword ptr [rdi + 1]
+0x000000000040102a : xor ebp, edx ; setne ah ; jmp qword ptr [rbp - 0x17bc0000]
+0x0000000000401007 : xor rax, rax ; jmp qword ptr [rdi + 1]
+0x0000000000401029 : xor rbp, rdx ; setne ah ; jmp qword ptr [rbp - 0x17bc0000]
+
+Unique gadgets found: 85

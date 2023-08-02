@@ -21,7 +21,7 @@
 ## Local Events
 | Event | Year  | Stage | Style | Solves | Category | Team Banner | Rank | Writeup |
 | --- | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: | :---: |
-| Gemastik CTF | 2023  | Qualifier | Jeopardy | 2 | Pwn, Crypto | Lho, Gak Bahaya Ta? | 2nd (as of freeze) | [PDF]() |
+| Gemastik CTF | 2023  | Qualifier | Jeopardy | 2 | Pwn, Crypto | Lho, Gak Bahaya Ta? | 5 / 252 | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/CTF%20Events/2023-GemastikCTF/Qualifier/Writeup%20Seleksi%20Gemastik%202023%20-%20Gak%20Bahaya%20Ta.pdf) |
 | Technofair CTF | 2023  | Qualifier | Jeopardy | 2 | Pwn, Misc | Dipandang Sebelah Mata | 15/30 | - |
 | CiGITS CTF | 2023 |  Internal Selection | Jeopardy | 5 | Pwn, Web, Misc |  Lho, Gak Bahaya Ta? | 1st | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/cigits-2023), [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/CTF%20Events/2023-CiGITSCTF/Seleksi_Internal_Gemastik_2023_Gak_Bahaya_Ta.pdf)
 | CiGITS CTF | 2023 | Warmup  | Jeopardy | - | Pwn, Crypto |  Lho, Gak Bahaya Ta? | 1st | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/CTF%20Events/2023-CiGITSCTF/Writeup%20Warm%20Up%20Gak%20Bahaya%20Ta%20Seleksi%20Internal%20Gemastik%202023.pdf)

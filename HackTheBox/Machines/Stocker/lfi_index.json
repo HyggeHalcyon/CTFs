@@ -1,0 +1,12 @@
+{
+    "basket": [{
+        "_id": "638f116eeb060210cbd83a93",
+        "title": "<iframe src=file:////var/www/dev/index.js width=1000 height=1000></iframe>",
+        "description": "It's toilet paper.",
+        "image": "toilet-paper.jpg",
+        "price": 0.69,
+        "currentStock": 4212,
+        "__v": 0,
+        "amount": 1
+    }]
+}

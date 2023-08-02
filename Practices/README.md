@@ -40,4 +40,6 @@ House of Botcake and FSOP
 https://sekai.team/blog/imaginary-ctf-2023/mailman/#secrets    
 https://ret2school.github.io/post/catastrophe/     
 https://ctftime.org/writeup/34804   
-https://ret2school.github.io/post/catastrophe/     
+
+Clear writeups from various CTFs
+https://7rocky.github.io/en/ctf/
