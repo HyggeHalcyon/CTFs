@@ -7,9 +7,9 @@
     - save the shrunken image and run `./run-cve result` to show the result in hex
 4. analysing the source code, we have a SQLite database `var/db/pilgrimage` which contains emily's password
 5. running linpeas we discover the following result  
-╔══════════╣ .sh files in path  
-/usr/bin/gettext.sh                               
-/usr/sbin/malwarescan.sh  
+`╔══════════╣ .sh files in path`  
+`/usr/bin/gettext.sh`                               
+`/usr/sbin/malwarescan.sh`  
 **malwarescan.sh** in particular is interesting because we have read permissions, and the script is running binwalk in a outdated version  
 6. utilizing `inotifywait`, binwalk will execute if a file is created within `var/www/pilgrimage.htb/shrunk/`
 7. the binwalk version is vulnerable to `CVE-2022-4510`. Using public PoC we recreate is as follows:
