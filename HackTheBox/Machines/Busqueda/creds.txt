@@ -1,4 +1,0 @@
-svc@10.10.11.208:id_rsa
-svc@10.10.11.208:jh1usoih2bkjaspwe92
-cody:jh1usoih2bkjaspwe92
-administrator:yuiu1hoiu4i5ho1uh

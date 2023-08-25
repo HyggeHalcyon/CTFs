@@ -1,5 +1,0 @@
-[user]
-        email = cody@searcher.htb
-        name = cody
-[core]
-        hooksPath = no-hooks

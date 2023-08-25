@@ -1,4 +1,0 @@
-# Nmap 7.94 scan initiated Sat Aug  5 23:25:50 2023 as: nmap -sC -sV -oA nmap/scan 10.10.11.219
-Host: 10.10.11.219 (pilgrimage.htb)	Status: Up
-Host: 10.10.11.219 (pilgrimage.htb)	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0/	Ignored State: closed (998)
-# Nmap done at Sat Aug  5 23:25:58 2023 -- 1 IP address (1 host up) scanned in 7.84 seconds

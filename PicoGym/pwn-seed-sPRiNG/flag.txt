@@ -1,1 +1,0 @@
-picoCTF{pseudo_random_number_generator_not_so_random_248ec303}

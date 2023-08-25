@@ -1,1 +1,0 @@
-[32mFound[0m: dev.stocker.htb [36mStatus: 302[0m [Size: 28][34m [--> /login][0m

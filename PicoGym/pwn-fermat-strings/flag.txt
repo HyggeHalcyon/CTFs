@@ -1,1 +1,0 @@
-picoCTF{f3rm4t_pwn1ng_s1nc3_th3_17th_c3ntury}
