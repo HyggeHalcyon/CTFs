@@ -5,11 +5,13 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## Research Interest
 - Game Hacking   
 - Offensive security   
+- Malware Development
 - Detection Engineering
 
 ## International Events
 | Event | Year  | Solves | Category | Team Banner | Rank | Writeup |
 | --- | --- | :---: | :---: |  :---: |  :---: | :---: |
+| DownUnderCTF | 2023 | 3 | Pwn | HCS |  90 / 1424 | - |
 | Tenable CTF | 2023 | 4 | Pwn | HCS |  5 / 1184 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/tenable-ctf-2023) |
 | Securinets CTF | 2023 | 1 | Pwn | - |  - | - |
 | TFC CTF | 2023 | 5 | Pwn | HCS |  68 / 1395 | - |
@@ -31,14 +33,17 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## Local Events
 | Event | Year  | Stage | Type | Solves | Category | Team Banner | Rank | Writeup |
 | --- | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: | :---: |
+| Gemastik CTF | 2023 | Final | Attack-Defense | ? | pwn | Gak Bahaya Ta? | ? / ? | - |
+| Intechfest CTF | 2023 | Qualifier | Jeopardy | 1 | pwn | Nisekoi S3 when? | 10* / 63 | - |
+| COMPFEST 15 CTF | 2023 | Qualifier | Jeopardy | 1 | rev, pwn, crypto | when yh | 9* / 171 | - |
 | HackToday CTF | 2023 | Qualifier | Jeopardy | 1 | pwn | Lho, Gak Bahaya Ta? | 5* / 60 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/hacktoday-ctf-quals) |
-| Gemastik CTF | 2023  | Qualifier | Jeopardy | 2 | Pwn, Crypto | Lho, Gak Bahaya Ta? | 5 / 252 | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023-GemastikCTF/Qualifier/Writeup%20Seleksi%20Gemastik%202023%20-%20Gak%20Bahaya%20Ta.pdf) |
+| Gemastik CTF | 2023  | Qualifier | Jeopardy | 2 | Pwn, Crypto | Gak Bahaya Ta? | 5 / 252 | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023-GemastikCTF/Qualifier/Writeup%20Seleksi%20Gemastik%202023%20-%20Gak%20Bahaya%20Ta.pdf) |
 | Technofair CTF | 2023  | Qualifier | Jeopardy | 2 | Pwn, Misc | Dipandang Sebelah Mata | 15 / 30 | - |
 | CiGITS CTF | 2023 |  Internal Selection | Jeopardy | 5 | Pwn, Web, Misc |  Lho, Gak Bahaya Ta? | 1st | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/cigits-2023), [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023-CiGITSCTF/Seleksi_Internal_Gemastik_2023_Gak_Bahaya_Ta.pdf)
 | CiGITS CTF | 2023 | Warmup  | Jeopardy | - | Pwn, Crypto |  Lho, Gak Bahaya Ta? | 1st | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023-CiGITSCTF/Writeup%20Warm%20Up%20Gak%20Bahaya%20Ta%20Seleksi%20Internal%20Gemastik%202023.pdf)
 | FindIT CTF | 2023 | Final | Jeopardy | - | Rev | Pengen Jadi Hacker | ? / ? | -
 | FindIT CTF | 2023 | Qualifier | Jeopardy | 9 | Pwn, Rev, Crypto, Misc | Pengen Jadi Hacker | 15 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/findit-ctf-2023) 
-| UNITY CTF | 2023 | Final | Attack & Defense | - | Machines | Pengen Jadi Hacker | ? / ? | -
+| UNITY CTF | 2023 | Final | Attack-Defense | - | Machines | Pengen Jadi Hacker | ? / ? | -
 | UNITY CTF | 2023 | Qualifier | Jeopardy | - | Rev, Crypto | Pengen Jadi Hacker | ? / ? | -
 
 \* *(scoreboard as of freeze)*
