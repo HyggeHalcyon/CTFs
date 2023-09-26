@@ -1,7 +1,7 @@
 #!usr/bin/python3
 from pwn import *
 from threading import Thread
-import queue
+from queue import Queue
 
 # =========================================================
 #                          SETUP                         

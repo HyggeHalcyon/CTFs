@@ -11,6 +11,10 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## International Events
 | Event | Year  | Solves | Category | Team Banner | Rank | Writeup |
 | --- | --- | :---: | :---: |  :---: |  :---: | :---: |
+| ASIS CTF | 2023 | 1 | pwn | - | - | - | 
+| Winja CTF 2023 | 2023 | 3 | pwn | HCS | 7 / 203 | - | 
+| UWSP Pointer Overflow CTF | 2023 | 4 | Pwn | HCS |  1 / 503 | - |
+| CSAWCTF | 2023 | 3 | Pwn | HCS |  67 / 1098 | - |
 | DownUnderCTF | 2023 | 3 | Pwn | HCS |  90 / 1424 | - |
 | Tenable CTF | 2023 | 4 | Pwn | HCS |  5 / 1184 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/tenable-ctf-2023) |
 | Securinets CTF | 2023 | 1 | Pwn | - |  - | - |
@@ -33,7 +37,7 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## Local Events
 | Event | Year  | Stage | Type | Solves | Category | Team Banner | Rank | Writeup |
 | --- | :---: | :---: | :---: | :---: | :---: |  :---: |  :---: | :---: |
-| Gemastik CTF | 2023 | Final | Attack-Defense | ? | pwn | Gak Bahaya Ta? | ? / ? | - |
+| Gemastik CTF | 2023 | Final | Attack-Defense | 1 | pwn | Gak Bahaya Ta? | 9* / 20 | - |
 | Intechfest CTF | 2023 | Qualifier | Jeopardy | 1 | pwn | Nisekoi S3 when? | 10* / 63 | - |
 | COMPFEST 15 CTF | 2023 | Qualifier | Jeopardy | 1 | rev, pwn, crypto | when yh | 9* / 171 | - |
 | HackToday CTF | 2023 | Qualifier | Jeopardy | 1 | pwn | Lho, Gak Bahaya Ta? | 5* / 60 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/hacktoday-ctf-quals) |
