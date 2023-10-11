@@ -1,0 +1,133 @@
+{
+  "data": [
+    {
+      "id": 3,
+      "name": "Boys Who Cry",
+      "server": {
+        "host": "10.0.0.4",
+        "id": 1
+      }
+    },
+    {
+      "id": 4,
+      "name": "Alberth",
+      "server": {
+        "host": "10.0.0.5",
+        "id": 2
+      }
+    },
+    {
+      "id": 5,
+      "name": "kessoku band",
+      "server": {
+        "host": "10.0.0.6",
+        "id": 3
+      }
+    },
+    {
+      "id": 6,
+      "name": "segfault",
+      "server": {
+        "host": "10.2.0.3",
+        "id": 4
+      }
+    },
+    {
+      "id": 7,
+      "name": "KAMI",
+      "server": {
+        "host": "10.2.0.4",
+        "id": 5
+      }
+    },
+    {
+      "id": 8,
+      "name": "bocah kemarin sore",
+      "server": {
+        "host": "10.2.0.5",
+        "id": 6
+      }
+    },
+    {
+      "id": 9,
+      "name": "Jejaring Jagat Jembar",
+      "server": {
+        "host": "10.2.0.6",
+        "id": 7
+      }
+    },
+    {
+      "id": 10,
+      "name": "te ce pe 1 pe",
+      "server": {
+        "host": "10.2.0.7",
+        "id": 8
+      }
+    },
+    {
+      "id": 11,
+      "name": "AcRtf",
+      "server": {
+        "host": "10.2.0.8",
+        "id": 9
+      }
+    },
+    {
+      "id": 12,
+      "name": "Jual SSD 256GB 200K",
+      "server": {
+        "host": "10.2.0.9",
+        "id": 10
+      }
+    },
+    {
+      "id": 13,
+      "name": "when yh",
+      "server": {
+        "host": "10.2.0.10",
+        "id": 11
+      }
+    },
+    {
+      "id": 14,
+      "name": "CTF Pak Angling",
+      "server": {
+        "host": "10.2.0.11",
+        "id": 12
+      }
+    },
+    {
+      "id": 15,
+      "name": "PresunivCodeWarrior",
+      "server": {
+        "host": "10.2.0.12",
+        "id": 13
+      }
+    },
+    {
+      "id": 16,
+      "name": "Haha hoho awikwok",
+      "server": {
+        "host": "10.2.0.13",
+        "id": 14
+      }
+    },
+    {
+      "id": 17,
+      "name": "CP Enjoyer",
+      "server": {
+        "host": "10.2.0.14",
+        "id": 15
+      }
+    },
+    {
+      "id": 18,
+      "name": "Dummy Team",
+      "server": {
+        "host": "10.0.0.7",
+        "id": 16
+      }
+    }
+  ],
+  "status": "success"
+}
