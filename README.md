@@ -11,8 +11,9 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## International Events
 | Event | Year  | Team Banner | Rank | Writeup |
 | --- | --- |  :---: |  :---: | :---: |
-| Fetch the Flag CTF | 2023 | ? | HCS | ? / ? | - | 
-| Huntress CTF | 2023 | ? | HCS | ? / ? | - | 
+| ASCIS CTF Quals | 2023 | Heroes Cyber Security | 1st / 162 | - | 
+| Fetch the Flag CTF | 2023 | HCS | ? / ? | - | 
+| Huntress CTF | 2023 | HCS | ? / ? | - | 
 | Winja CTF | 2023 | HCS | 7 / 203 | - | 
 | Pointer Overflow CTF | 2023 | HCS |  1st / 503 | - |
 | CSAWCTF | 2023 | HCS |  67 / 1098 | - |
@@ -38,9 +39,10 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## Local Events
 | Event | Year  | Stage | Type | Team Banner | Rank | Writeup |
 | --- | :---: | :---: | :---: |  :---: |  :---: | :---: |
+| Hology 6.0 CTF | 2023 | Qualifier | Jeopardy | SocengExpert | 1st / 34 | - |
 | Slashroot 7.0 CTF | 2023 | Final | Jeopardy | Tempe Goreng | ? / ? | - |
 | Slashroot 7.0 CTF | 2023 | Qualifier | Jeopardy | Tempe Goreng | 4* / 40 | - |
-| COMPFEST 15 CTF | 2023 | Final | Attack-Defense | when yh | ? / ? | - |
+| COMPFEST 15 CTF | 2023 | Final | Attack-Defense | when yh | 12* / 15 | - |
 | COMPFEST 15 CTF | 2023 | Qualifier | Jeopardy | when yh | 9* / 171 | - |
 | HackToday CTF | 2023 | Qualifier | Jeopardy | Lho, Gak Bahaya Ta? | 5* / 60 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/hacktoday-ctf-quals) |
 | Intechfest CTF | 2023 | - | Jeopardy | Nisekoi S3 when? | 10* / 63 | - |
