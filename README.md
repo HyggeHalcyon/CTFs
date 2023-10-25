@@ -11,6 +11,7 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## International Events
 | Event | Year  | Team Banner | Rank | Writeup |
 | --- | --- |  :---: |  :---: | :---: |
+| D-CTF Quals | 2023 | Heroes Cyber Security | 26 / 272 | - | 
 | ASCIS CTF Quals | 2023 | Heroes Cyber Security | 1st / 162 | - | 
 | Fetch the Flag CTF | 2023 | HCS | ? / ? | - | 
 | Huntress CTF | 2023 | HCS | ? / ? | - | 
@@ -39,6 +40,7 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 ## Local Events
 | Event | Year  | Stage | Type | Team Banner | Rank | Writeup |
 | --- | :---: | :---: | :---: |  :---: |  :---: | :---: |
+| Hology 6.0 CTF | 2023 | Final | Jeopardy | SocengExpert | - / - | - |
 | Hology 6.0 CTF | 2023 | Qualifier | Jeopardy | SocengExpert | 1st / 34 | - |
 | Slashroot 7.0 CTF | 2023 | Final | Jeopardy | Tempe Goreng | ? / ? | - |
 | Slashroot 7.0 CTF | 2023 | Qualifier | Jeopardy | Tempe Goreng | 4* / 40 | - |
