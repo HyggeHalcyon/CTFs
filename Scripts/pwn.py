@@ -9,6 +9,7 @@ elf = context.binary = ELF(exe, checksec=True)
 libc = './libc.so.6'
 libc = ELF(libc, checksec=False)
 context.log_level = 'debug'
+context.terminal = ["tmux", "splitw", "-h"]
 host, port = '', 1337
 
 def initialize(argv=[]):
