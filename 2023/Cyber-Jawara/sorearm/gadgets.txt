@@ -1,0 +1,16 @@
+Gadgets information
+============================================================
+0x000103a0 : andeq r0, r0, r6, lsl r2 ; andeq r2, r1, r0, lsr #32 ; andeq r0, r0, r6, lsl r7 ; andeq r2, r1, r4, lsr #32 ; andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x000103a8 : andeq r0, r0, r6, lsl r7 ; andeq r2, r1, r4, lsr #32 ; andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x000103b0 : andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x00010398 : andeq r0, r0, r6, lsl sl ; andeq r2, r1, ip, lsl r0 ; andeq r0, r0, r6, lsl r2 ; andeq r2, r1, r0, lsr #32 ; andeq r0, r0, r6, lsl r7 ; andeq r2, r1, r4, lsr #32 ; andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x0001039c : andeq r2, r1, ip, lsl r0 ; andeq r0, r0, r6, lsl r2 ; andeq r2, r1, r0, lsr #32 ; andeq r0, r0, r6, lsl r7 ; andeq r2, r1, r4, lsr #32 ; andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x000103a4 : andeq r2, r1, r0, lsr #32 ; andeq r0, r0, r6, lsl r7 ; andeq r2, r1, r4, lsr #32 ; andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x000103ac : andeq r2, r1, r4, lsr #32 ; andeq r0, r0, r6, lsl r8 ; push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x000103b8 : bl #0x1045c ; pop {r3, pc}
+0x000103bc : pop {r3, pc}
+0x000103b4 : push {r3, lr} ; bl #0x1045c ; pop {r3, pc}
+0x00010590 : push {r3, lr} ; pop {r3, pc}
+0x0001058c : stclt p6, c4, [r0, #0x2f4] ; push {r3, lr} ; pop {r3, pc}
+
+Unique gadgets found: 12

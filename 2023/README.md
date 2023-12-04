@@ -31,6 +31,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Cyber Jawara 2023 Quals |  Jeopardy | Nobody Fan Club | 25th / 65 | - |
 | Hology 6.0 CTF Quals |  Jeopardy | SocengExpert | 1st / 34 | - |
 | Slashroot 7.0 CTF Quals |  Jeopardy | Tempe Goreng | 4* / 40 | - |
 | COMPFEST 15 CTF Final |  A/D | when yh | 12* / 15 | - |

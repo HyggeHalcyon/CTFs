@@ -1,4 +1,4 @@
-# COMPFEST 15 2023
+# 1337UP LIVE Intigriti CTF 2023
 
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
