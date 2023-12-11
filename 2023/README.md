@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| HackTheBox University | ITS | 59/955 | - |
 | 1337UP LIVE CTF |  HCS | 11 / 691 | - | 
 | D-CTF Quals |  Heroes Cyber Security | 26 / 272 | - | 
 | ASCIS CTF Quals |  Heroes Cyber Security | 1st / 162 | - | 
@@ -31,20 +32,21 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| Cyber Jawara 2023 Quals |  Jeopardy | Nobody Fan Club | 25th / 65 | - |
-| Hology 6.0 CTF Quals |  Jeopardy | SocengExpert | 1st / 34 | - |
-| Slashroot 7.0 CTF Quals |  Jeopardy | Tempe Goreng | 4* / 40 | - |
-| COMPFEST 15 CTF Final |  A/D | when yh | 12* / 15 | - |
-| COMPFEST 15 CTF Quals |  Jeopardy | when yh | 9* / 171 | - |
+| ITFEST CTF | Jeopardy | Neuro-sama | ?? / ?? | - |
+| Cyber Jawara 2023 Quals | Jeopardy | Nobody Fan Club | 25th / 65 | - |
+| Hology 6.0 CTF Quals | Jeopardy | SocengExpert | 1st / 34 | - |
+| Slashroot 7.0 CTF Quals | Jeopardy | Tempe Goreng | 4* / 40 | - |
+| COMPFEST 15 CTF Final | A/D | when yh | 12* / 15 | - |
+| COMPFEST 15 CTF Quals | Jeopardy | when yh | 9* / 171 | - |
 | HackToday CTF Quals | Jeopardy | Lho, Gak Bahaya Ta? | 5* / 60 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/hacktoday-ctf-quals) |
-| Intechfest CTF |  Jeopardy | Nisekoi S3 when? | 10* / 63 | - |
-| Technofair CTF Quals |  Jeopardy | Dipandang Sebelah Mata | 15 / 30 | - |
-| Gemastik CTF Final |  A/D | Gak Bahaya Ta? | 9* / 20 | - |
-| Gemastik CTF Quals |  Jeopardy | Gak Bahaya Ta? | 5 / 252 | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023/GemastikCTF/Qualifier/Writeup%20Seleksi%20Gemastik%202023%20-%20Gak%20Bahaya%20Ta.pdf) |
-| CiGITS CTF |  Jeopardy |  Lho, Gak Bahaya Ta? | 1st | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/cigits-2023), [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023/CiGITSCTF/Seleksi_Internal_Gemastik_2023_Gak_Bahaya_Ta.pdf)
-| FindIT CTF Final |  Jeopardy  | Pengen Jadi Hacker | ? / ? | -
-| FindIT CTF Quals |  Jeopardy | Pengen Jadi Hacker | 15 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/findit-ctf-2023) 
-| UNITY CTF Final |  A/D | Pengen Jadi Hacker | ? / ? | -
-| UNITY CTF Quals |  Jeopardy | Pengen Jadi Hacker | ? / ? | -
+| Intechfest CTF | Jeopardy | Nisekoi S3 when? | 10* / 63 | - |
+| Technofair CTF Quals | Jeopardy | Dipandang Sebelah Mata | 15 / 30 | - |
+| Gemastik CTF Final | A/D | Gak Bahaya Ta? | 9* / 20 | - |
+| Gemastik CTF Quals | Jeopardy | Gak Bahaya Ta? | 5 / 252 | [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023/GemastikCTF/Qualifier/Writeup%20Seleksi%20Gemastik%202023%20-%20Gak%20Bahaya%20Ta.pdf) |
+| CiGITS CTF | Jeopardy |  Lho, Gak Bahaya Ta? | 1st | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/cigits-2023), [PDF](https://github.com/HyggeHalcyon/WriteUps/blob/main/2023/CiGITSCTF/Seleksi_Internal_Gemastik_2023_Gak_Bahaya_Ta.pdf)
+| FindIT CTF Final | Jeopardy  | Pengen Jadi Hacker | ? / ? | -
+| FindIT CTF Quals | Jeopardy | Pengen Jadi Hacker | 15 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2023/findit-ctf-2023) 
+| UNITY CTF Final | A/D | Pengen Jadi Hacker | ? / ? | -
+| UNITY CTF Quals | Jeopardy | Pengen Jadi Hacker | ? / ? | -
 
 \* *(scoreboard as of freeze)*

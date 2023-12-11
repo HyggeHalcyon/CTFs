@@ -1,0 +1,20 @@
+# Nmap 7.93 scan initiated Sat Dec  9 03:30:38 2023 as: nmap -sC -sV -oA recon/apethanto 10.129.248.166
+Nmap scan report for 10.129.248.166
+Host is up (0.45s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.4p1 Debian 5+deb11u2 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 3e21d5dc2e61eb8fa63b242ab71c05d3 (RSA)
+|   256 3911423f0c250008d72f1b51e0439d85 (ECDSA)
+|_  256 b06fa00a9edfb17a497886b23540ec95 (ED25519)
+80/tcp   open  http    nginx 1.18.0
+|_http-server-header: nginx/1.18.0
+|_http-title: Did not follow redirect to http://apethanto.htb/
+3000/tcp open  http    Jetty 11.0.14
+|_http-server-header: Jetty(11.0.14)
+|_http-title: Metabase
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  9 03:33:12 2023 -- 1 IP address (1 host up) scanned in 153.93 seconds

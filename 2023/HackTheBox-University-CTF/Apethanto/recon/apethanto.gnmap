@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sat Dec  9 03:30:38 2023 as: nmap -sC -sV -oA recon/apethanto 10.129.248.166
+Host: 10.129.248.166 ()	Status: Up
+Host: 10.129.248.166 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u2 (protocol 2.0)/, 80/open/tcp//http//nginx 1.18.0/, 3000/open/tcp//http//Jetty 11.0.14/	Ignored State: closed (997)
+# Nmap done at Sat Dec  9 03:33:12 2023 -- 1 IP address (1 host up) scanned in 153.93 seconds
