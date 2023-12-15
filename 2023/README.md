@@ -32,7 +32,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| ITFEST CTF | Jeopardy | Neuro-sama | ?? / ?? | - |
+| ITFEST CTF | Jeopardy | Neuro-sama | 13* / ?? | - |
 | Cyber Jawara 2023 Quals | Jeopardy | Nobody Fan Club | 25th / 65 | - |
 | Hology 6.0 CTF Quals | Jeopardy | SocengExpert | 1st / 34 | - |
 | Slashroot 7.0 CTF Quals | Jeopardy | Tempe Goreng | 4* / 40 | - |

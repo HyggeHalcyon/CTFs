@@ -1,0 +1,8 @@
+version: '3'
+services:
+  crynote:
+    build: .
+    ports:
+      - "21337:21337"
+    entrypoint: /etc/init.sh
+    restart: unless-stopped
