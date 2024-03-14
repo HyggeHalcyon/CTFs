@@ -49,4 +49,4 @@
 | UNITY CTF Final | A/D | Pengen Jadi Hacker | ? / ? | -
 | UNITY CTF Quals | Jeopardy | Pengen Jadi Hacker | ? / ? | -
 
-\* *(scoreboard as of freeze)*
+_***\* scoreboard as of freeze***_
