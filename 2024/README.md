@@ -3,7 +3,8 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| HTB Cyber Apocalypse  | Heroes Cyber Security | 92 | - |
+| nullcon HackIM | Oubaitori | 4 / 293 | - |
+| HTB Cyber Apocalypse | Heroes Cyber Security | 92 | - |
 | WxMCTF | HCS | 11 / 262 | - |
 | osu!gamingCTF | HCS | 79 / 984 | - | 
     
