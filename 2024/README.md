@@ -3,7 +3,12 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| HTB Cyber Apocalypse  | Heroes Cyber Security | 92 | - |
+| AmateursCTF | HCS | ?? | - |
+| RITSEC CTF | HCS | 20 | 360 |
+| TAMUCTF | HCS | 140 | 361 |
+| swampCTF | HCS | 3rd | 309 |
+| UNbreakable International | HCS | 2nd | 341 |
+| HTB Cyber Apocalypse | Heroes Cyber Security | 92 | - |
 | WxMCTF | HCS | 11 / 262 | - |
 | osu!gamingCTF | HCS | 79 / 984 | - | 
     
