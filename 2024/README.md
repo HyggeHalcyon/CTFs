@@ -9,6 +9,8 @@
 | swampCTF | HCS | 3rd | 309 |
 | UNbreakable International | HCS | 2nd | 341 |
 | HTB Cyber Apocalypse | Heroes Cyber Security | 92 | - |
+| nullcon HackIM | Oubaitori | 4 / 293 | - |
+| HTB Cyber Apocalypse | Heroes Cyber Security | 92 | - |
 | WxMCTF | HCS | 11 / 262 | - |
 | osu!gamingCTF | HCS | 79 / 984 | - | 
     
