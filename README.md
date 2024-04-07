@@ -13,3 +13,4 @@ documentation can be found [here](https://hyggehalcyon.gitbook.io/page/ctfs/2023
 - [mirai](https://github.com/miraicantsleep)
 - [bima]()
 - [dimas maulana](https://github.com/dimasma0305)
+- [dito]()
