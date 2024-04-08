@@ -1,0 +1,74 @@
+Gadgets information
+============================================================
+0x00000000004010fe : adc byte ptr [rax + 0x31], cl ; ror byte ptr [rdi], 5 ; leave ; ret
+0x00000000004010ed : adc byte ptr [rax], al ; add byte ptr [rax], al ; leave ; ret
+0x000000000040107d : adc eax, dword ptr [rax] ; add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; jmp 0x40109c
+0x00000000004010ce : add byte ptr [rax + rcx + 0x48], dh ; inc edx ; jmp 0x4010cb
+0x000000000040107f : add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; jmp 0x40109c
+0x0000000000401116 : add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; syscall
+0x0000000000401009 : add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; xor rdi, rdi ; syscall
+0x0000000000401081 : add byte ptr [rax], al ; add byte ptr [rax], al ; jmp 0x40109c
+0x00000000004010ae : add byte ptr [rax], al ; add byte ptr [rax], al ; mov rsi, rdx ; mov rdx, rcx ; syscall
+0x0000000000401118 : add byte ptr [rax], al ; add byte ptr [rax], al ; syscall
+0x000000000040100b : add byte ptr [rax], al ; add byte ptr [rax], al ; xor rdi, rdi ; syscall
+0x00000000004010ee : add byte ptr [rax], al ; add cl, cl ; ret
+0x0000000000401083 : add byte ptr [rax], al ; jmp 0x40109c
+0x00000000004010ef : add byte ptr [rax], al ; leave ; ret
+0x00000000004010b0 : add byte ptr [rax], al ; mov rsi, rdx ; mov rdx, rcx ; syscall
+0x000000000040111a : add byte ptr [rax], al ; syscall
+0x000000000040100d : add byte ptr [rax], al ; xor rdi, rdi ; syscall
+0x00000000004010f0 : add cl, cl ; ret
+0x0000000000401114 : add dword ptr [rax], eax ; add byte ptr [rax], al ; add byte ptr [rax], al ; add byte ptr [rax], al ; syscall
+0x0000000000401013 : add eax, 0xfffffbe9 ; call qword ptr [rbp + 0x48]
+0x00000000004010eb : add esp, 0x10 ; leave ; ret
+0x00000000004010ea : add rsp, 0x10 ; leave ; ret
+0x0000000000401018 : call qword ptr [rbp + 0x48]
+0x00000000004010d8 : call qword ptr [rdi + 0x48]
+0x00000000004010cc : cmp al, 0x17 ; add byte ptr [rax + rcx + 0x48], dh ; inc edx ; jmp 0x4010cb
+0x00000000004010cb : cmp byte ptr [rdi + rdx], 0 ; je 0x4010d9 ; inc rdx ; jmp 0x4010cb
+0x0000000000401011 : dec dword ptr [rdi] ; add eax, 0xfffffbe9 ; call qword ptr [rbp + 0x48]
+0x0000000000401069 : inc edi ; inc rdx ; jmp 0x40105e
+0x000000000040106c : inc edx ; jmp 0x40105e
+0x00000000004010d2 : inc edx ; jmp 0x4010cb
+0x0000000000401068 : inc rdi ; inc rdx ; jmp 0x40105e
+0x000000000040106b : inc rdx ; jmp 0x40105e
+0x00000000004010d1 : inc rdx ; jmp 0x4010cb
+0x00000000004010cf : je 0x4010d9 ; inc rdx ; jmp 0x4010cb
+0x0000000000401014 : jmp 0x401014
+0x000000000040106e : jmp 0x40105e
+0x000000000040106f : jmp 0x401070
+0x0000000000401085 : jmp 0x40109c
+0x00000000004010d4 : jmp 0x4010cb
+0x0000000000401066 : jne 0x401073 ; inc rdi ; inc rdx ; jmp 0x40105e
+0x00000000004010f9 : jne 0x401113 ; mov rdx, qword ptr [rbp + 0x10] ; xor rax, rax ; syscall
+0x00000000004010c2 : leave ; ret
+0x0000000000401113 : mov eax, 1 ; add byte ptr [rax], al ; add byte ptr [rax], al ; syscall
+0x000000000040107c : mov ecx, 0x13 ; add byte ptr [rax], al ; add byte ptr [rax], al ; jmp 0x40109c
+0x00000000004010fc : mov edx, dword ptr [rbp + 0x10] ; xor rax, rax ; syscall
+0x00000000004010b6 : mov edx, ecx ; syscall
+0x00000000004010b3 : mov esi, edx ; mov rdx, rcx ; syscall
+0x00000000004010fb : mov rdx, qword ptr [rbp + 0x10] ; xor rax, rax ; syscall
+0x00000000004010b5 : mov rdx, rcx ; syscall
+0x00000000004010b2 : mov rsi, rdx ; mov rdx, rcx ; syscall
+0x00000000004010d0 : or byte ptr [rax - 1], cl ; ret 0xf2e9
+0x0000000000401065 : pcmpeqw mm1, qword ptr [rbx] ; inc rdi ; inc rdx ; jmp 0x40105e
+0x00000000004010bb : pop rax ; xor rdx, rdx ; xor rsi, rsi ; leave ; ret
+0x00000000004010ba : pop rdi ; pop rax ; xor rdx, rdx ; xor rsi, rsi ; leave ; ret
+0x00000000004010fd : push rbp ; adc byte ptr [rax + 0x31], cl ; ror byte ptr [rdi], 5 ; leave ; ret
+0x00000000004010c3 : ret
+0x000000000040106d : ret 0xebe9
+0x00000000004010d3 : ret 0xf2e9
+0x00000000004010b7 : retf 0x50f
+0x00000000004010ca : rol byte ptr [rax + 0x7400173c], cl ; or byte ptr [rax - 1], cl ; ret 0xf2e9
+0x0000000000401101 : ror byte ptr [rdi], 5 ; leave ; ret
+0x0000000000401012 : syscall
+0x0000000000401100 : xor eax, eax ; syscall
+0x0000000000401010 : xor edi, edi ; syscall
+0x00000000004010bd : xor edx, edx ; xor rsi, rsi ; leave ; ret
+0x00000000004010c0 : xor esi, esi ; leave ; ret
+0x00000000004010ff : xor rax, rax ; syscall
+0x000000000040100f : xor rdi, rdi ; syscall
+0x00000000004010bc : xor rdx, rdx ; xor rsi, rsi ; leave ; ret
+0x00000000004010bf : xor rsi, rsi ; leave ; ret
+
+Unique gadgets found: 70
