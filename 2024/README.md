@@ -3,12 +3,12 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| AmateursCTF | HCS | ?? | - |
-| swampCTF | HCS | 3rd | 362 |
-| RITSEC CTF | HCS | 20 | 360 |
-| UNbreakable International | HCS | 2nd | 341 |
-| HTB Cyber Apocalypse | Heroes Cyber Security | 92 | - |
-| nullcon HackIM | Oubaitori | 4 / 293 | - |
+| AmateursCTF | HCS | 144 / 1536 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/amateursctf) |
+| swampCTF | HCS | 3rd / 362 | - |
+| RITSEC CTF | HCS | 20th / 360 | - |
+| UNbreakable International - Team Phase | HCS | 2nd / 341 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/unbreakable-international-team-phase) |
+| HTB Cyber Apocalypse | Heroes Cyber Security | 92th | - |
+| nullcon HackIM | Oubaitori | 4th / 293 | - |
 | WxMCTF | HCS | 11 / 262 | - |
 | osu!gamingCTF | HCS | 79 / 984 | - | 
     
