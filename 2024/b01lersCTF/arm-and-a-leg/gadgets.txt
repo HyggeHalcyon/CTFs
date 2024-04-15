@@ -1,0 +1,273 @@
+Gadgets information
+============================================================
+0x0000000000400864 : add x0, x0, #0x68 ; adrp x1, #0x412000 ; add x1, x1, #0x68 ; cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x0000000000400820 : add x0, x0, #0x834 ; mov x3, #0 ; mov x4, #0 ; bl #0x400730 ; bl #0x400770 ; nop ; b #0x400928 ; nop ; ret
+0x0000000000400c60 : add x0, x0, #0xf18 ; bl #0x400780 ; adrp x0, #0x400000 ; add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c6c : add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c6c : add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x000000000040086c : add x1, x1, #0x68 ; cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x000000000040086c : add x1, x1, #0x68 ; cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x00000000004008a8 : add x1, x2, x1, asr #3 ; asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008a8 : add x1, x2, x1, asr #3 ; asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x0000000000400738 : add x16, x16, #0 ; br x17
+0x0000000000400738 : add x16, x16, #0 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x0000000000400738 : add x16, x16, #0 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400758 : add x16, x16, #0x10 ; br x17
+0x0000000000400758 : add x16, x16, #0x10 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x0000000000400758 : add x16, x16, #0x10 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x0000000000400768 : add x16, x16, #0x18 ; br x17
+0x0000000000400768 : add x16, x16, #0x18 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x0000000000400768 : add x16, x16, #0x18 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x0000000000400778 : add x16, x16, #0x20 ; br x17
+0x0000000000400778 : add x16, x16, #0x20 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x0000000000400778 : add x16, x16, #0x20 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x0000000000400788 : add x16, x16, #0x28 ; br x17
+0x0000000000400788 : add x16, x16, #0x28 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x0000000000400788 : add x16, x16, #0x28 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x0000000000400798 : add x16, x16, #0x30 ; br x17
+0x0000000000400798 : add x16, x16, #0x30 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x0000000000400798 : add x16, x16, #0x30 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007a8 : add x16, x16, #0x38 ; br x17
+0x00000000004007a8 : add x16, x16, #0x38 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007a8 : add x16, x16, #0x38 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007b8 : add x16, x16, #0x40 ; br x17
+0x00000000004007b8 : add x16, x16, #0x40 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007b8 : add x16, x16, #0x40 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x00000000004007c8 : add x16, x16, #0x48 ; br x17
+0x00000000004007c8 : add x16, x16, #0x48 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x00000000004007d8 : add x16, x16, #0x50 ; br x17
+0x000000000040071c : add x16, x16, #0xff8 ; br x17
+0x000000000040071c : add x16, x16, #0xff8 ; br x17 ; nop ; nop ; nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x0000000000400748 : add x16, x16, #8 ; br x17
+0x0000000000400748 : add x16, x16, #8 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400748 : add x16, x16, #8 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x000000000040081c : adrp x0, #0x400000 ; add x0, x0, #0x834 ; mov x3, #0 ; mov x4, #0 ; bl #0x400730 ; bl #0x400770 ; nop ; b #0x400928 ; nop ; ret
+0x0000000000400c5c : adrp x0, #0x400000 ; add x0, x0, #0xf18 ; bl #0x400780 ; adrp x0, #0x400000 ; add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c68 : adrp x0, #0x400000 ; add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400a50 : adrp x0, #0x411000 ; ldr x0, [x0, #0xfc0] ; ldr x0, [x0] ; mov x1, #0 ; bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400844 : adrp x0, #0x411000 ; ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x0000000000400b6c : adrp x0, #0x411000 ; ldr x0, [x0, #0xfe0] ; ldr x2, [sp, #0x38] ; ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400be8 : adrp x0, #0x411000 ; ldr x0, [x0, #0xfe0] ; ldr x2, [sp, #0x78] ; ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400878 : adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x0000000000400878 : adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x0000000000400868 : adrp x1, #0x412000 ; add x1, x1, #0x68 ; cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x0000000000400868 : adrp x1, #0x412000 ; add x1, x1, #0x68 ; cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x0000000000400714 : adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x0000000000400750 : adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400750 : adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x0000000000400760 : adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x0000000000400760 : adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x0000000000400770 : adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x0000000000400770 : adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x0000000000400780 : adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x0000000000400780 : adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x0000000000400790 : adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x0000000000400790 : adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x00000000004007a0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x00000000004007a0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007b0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007b0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007c0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007c0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x00000000004007d0 : adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x0000000000400740 : adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x0000000000400740 : adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400730 : adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x0000000000400730 : adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x00000000004008dc : adrp x19, #0x412000 ; ldrb w0, [x19, #0x68] ; cbnz w0, #0x4008f4 ; bl #0x400860 ; mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008b4 : adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008b4 : adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x00000000004008ac : asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008ac : asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x0000000000400850 : b #0x400760 ; ret
+0x0000000000400900 : b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400900 : b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400900 : b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400838 : b #0x400928 ; nop ; ret
+0x0000000000400838 : b #0x400928 ; nop ; ret ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x0000000000400874 : b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x0000000000400874 : b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x0000000000400a0c : b.eq #0x400a14 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400af8 : b.eq #0x400b00 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400b84 : b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400c00 : b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400c2c : b.eq #0x400c3c ; ldr w0, [sp, #0x1c] ; cmn w0, #1 ; b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400c38 : b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x000000000040082c : bl #0x400730 ; bl #0x400770 ; nop ; b #0x400928 ; nop ; ret
+0x0000000000400a4c : bl #0x400740 ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfc0] ; ldr x0, [x0] ; mov x1, #0 ; bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400a60 : bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400b88 : bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400c04 : bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400a10 : bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400830 : bl #0x400770 ; nop ; b #0x400928 ; nop ; ret
+0x0000000000400830 : bl #0x400770 ; nop ; b #0x400928 ; nop ; ret ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x0000000000400c58 : bl #0x400780 ; adrp x0, #0x400000 ; add x0, x0, #0xf18 ; bl #0x400780 ; adrp x0, #0x400000 ; add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c64 : bl #0x400780 ; adrp x0, #0x400000 ; add x0, x0, #0xf20 ; bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c70 : bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c70 : bl #0x400780 ; nop ; ldp x29, x30, [sp], #0x10 ; ret ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400704 : bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400704 : bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret ; stp x16, x30, [sp, #-0x10]! ; adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x00000000004008e8 : bl #0x400860 ; mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008e8 : bl #0x400860 ; mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400888 : br x16
+0x0000000000400888 : br x16 ; ret
+0x0000000000400720 : br x17
+0x000000000040074c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x000000000040074c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x000000000040075c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x000000000040075c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x000000000040076c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x000000000040076c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x000000000040077c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x000000000040077c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x000000000040078c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x000000000040078c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x000000000040079c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x000000000040079c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007ac : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007ac : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007bc : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007bc : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x00000000004007cc : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x000000000040073c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x000000000040073c : br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400720 : br x17 ; nop ; nop ; nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x00000000004008e4 : cbnz w0, #0x4008f4 ; bl #0x400860 ; mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x000000000040084c : cbz x0, #0x400854 ; b #0x400760 ; ret
+0x0000000000400880 : cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x0000000000400880 : cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x00000000004008b0 : cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008b0 : cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x00000000004008bc : cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008bc : cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x0000000000400c34 : cmn w0, #1 ; b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400c28 : cmp w0, #0xa ; b.eq #0x400c3c ; ldr w0, [sp, #0x1c] ; cmn w0, #1 ; b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400870 : cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x0000000000400870 : cmp x1, x0 ; b.eq #0x40088c ; adrp x1, #0x400000 ; ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x0000000000400708 : ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400914 : ldp x29, x30, [sp], #0x10 ; ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400908 : ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400908 : ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c78 : ldp x29, x30, [sp], #0x10 ; ret ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400708 : ldp x29, x30, [sp], #0x10 ; ret ; stp x16, x30, [sp, #-0x10]! ; adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x00000000004008f8 : ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008f8 : ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004008f8 : ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400b8c : ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400c08 : ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400c30 : ldr w0, [sp, #0x1c] ; cmn w0, #1 ; b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400c24 : ldr w0, [sp, #0x1c] ; cmp w0, #0xa ; b.eq #0x400c3c ; ldr w0, [sp, #0x1c] ; cmn w0, #1 ; b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400a54 : ldr x0, [x0, #0xfc0] ; ldr x0, [x0] ; mov x1, #0 ; bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400848 : ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x0000000000400b70 : ldr x0, [x0, #0xfe0] ; ldr x2, [sp, #0x38] ; ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400bec : ldr x0, [x0, #0xfe0] ; ldr x2, [sp, #0x78] ; ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x00000000004009f8 : ldr x0, [x0, #0xfe0] ; ldr x3, [sp, #0x18] ; ldr x2, [x0] ; subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400a14 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400ae4 : ldr x0, [x0, #0xfe0] ; ldr x3, [sp, #0x18] ; ldr x2, [x0] ; subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400b00 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400a58 : ldr x0, [x0] ; mov x1, #0 ; bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x000000000040091c : ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400b78 : ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400bf4 : ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x000000000040087c : ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16
+0x000000000040087c : ldr x1, [x1, #0xca0] ; cbz x1, #0x40088c ; mov x16, x1 ; br x16 ; ret
+0x0000000000400754 : ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400754 : ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x0000000000400764 : ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17
+0x0000000000400764 : ldr x17, [x16, #0x18] ; add x16, x16, #0x18 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x0000000000400774 : ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17
+0x0000000000400774 : ldr x17, [x16, #0x20] ; add x16, x16, #0x20 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x0000000000400784 : ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17
+0x0000000000400784 : ldr x17, [x16, #0x28] ; add x16, x16, #0x28 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x0000000000400794 : ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17
+0x0000000000400794 : ldr x17, [x16, #0x30] ; add x16, x16, #0x30 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x00000000004007a4 : ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17
+0x00000000004007a4 : ldr x17, [x16, #0x38] ; add x16, x16, #0x38 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007b4 : ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17
+0x00000000004007b4 : ldr x17, [x16, #0x40] ; add x16, x16, #0x40 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007c4 : ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17
+0x00000000004007c4 : ldr x17, [x16, #0x48] ; add x16, x16, #0x48 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x00000000004007d4 : ldr x17, [x16, #0x50] ; add x16, x16, #0x50 ; br x17
+0x0000000000400718 : ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x0000000000400718 : ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17 ; nop ; nop ; nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x0000000000400744 : ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x0000000000400744 : ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #0x10] ; add x16, x16, #0x10 ; br x17
+0x0000000000400734 : ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x0000000000400734 : ldr x17, [x16] ; add x16, x16, #0 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x00000000004008f4 : ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008f4 : ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004008f4 : ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400b74 : ldr x2, [sp, #0x38] ; ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400bf0 : ldr x2, [sp, #0x78] ; ldr x1, [x0] ; subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400a00 : ldr x2, [x0] ; subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400a14 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400aec : ldr x2, [x0] ; subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400b00 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008b8 : ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008b8 : ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x00000000004009fc : ldr x3, [sp, #0x18] ; ldr x2, [x0] ; subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400a14 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400ae8 : ldr x3, [sp, #0x18] ; ldr x2, [x0] ; subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400b00 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008e0 : ldrb w0, [x19, #0x68] ; cbnz w0, #0x4008f4 ; bl #0x400860 ; mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008a4 : lsr x2, x1, #0x3f ; add x1, x2, x1, asr #3 ; asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x00000000004008a4 : lsr x2, x1, #0x3f ; add x1, x2, x1, asr #3 ; asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16 ; ret
+0x00000000004008ec : mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008ec : mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400a14 : mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400b80 : mov x1, #0 ; b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400bfc : mov x1, #0 ; b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400a48 : mov x1, #0 ; bl #0x400740 ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfc0] ; ldr x0, [x0] ; mov x1, #0 ; bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400a5c : mov x1, #0 ; bl #0x400740 ; nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400884 : mov x16, x1 ; br x16
+0x0000000000400884 : mov x16, x1 ; br x16 ; ret
+0x00000000004008c0 : mov x16, x2 ; br x16
+0x00000000004008c0 : mov x16, x2 ; br x16 ; ret
+0x0000000000400a08 : mov x2, #0 ; b.eq #0x400a14 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400af4 : mov x2, #0 ; b.eq #0x400b00 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400910 : mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400910 : mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400700 : mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400700 : mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret ; stp x16, x30, [sp, #-0x10]! ; adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x0000000000400c88 : mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400824 : mov x3, #0 ; mov x4, #0 ; bl #0x400730 ; bl #0x400770 ; nop ; b #0x400928 ; nop ; ret
+0x0000000000400828 : mov x4, #0 ; bl #0x400730 ; bl #0x400770 ; nop ; b #0x400928 ; nop ; ret
+0x000000000040072c : nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x000000000040072c : nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x0000000000400834 : nop ; b #0x400928 ; nop ; ret
+0x0000000000400834 : nop ; b #0x400928 ; nop ; ret ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x0000000000400a64 : nop ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c74 : nop ; ldp x29, x30, [sp], #0x10 ; ret ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c3c : nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400728 : nop ; nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x0000000000400728 : nop ; nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17 ; adrp x16, #0x412000 ; ldr x17, [x16, #8] ; add x16, x16, #8 ; br x17
+0x0000000000400724 : nop ; nop ; nop ; adrp x16, #0x412000 ; ldr x17, [x16] ; add x16, x16, #0 ; br x17
+0x000000000040083c : nop ; ret
+0x000000000040083c : nop ; ret ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x00000000004006f8 : nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c80 : nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x000000000040070c : ret
+0x0000000000400840 : ret ; adrp x0, #0x411000 ; ldr x0, [x0, #0xfd8] ; cbz x0, #0x400854 ; b #0x400760 ; ret
+0x00000000004008fc : ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004008fc : ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400918 : ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x000000000040090c : ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x000000000040090c : ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c7c : ret ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x000000000040070c : ret ; stp x16, x30, [sp, #-0x10]! ; adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x0000000000400710 : stp x16, x30, [sp, #-0x10]! ; adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x00000000004006fc : stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004006fc : stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret ; stp x16, x30, [sp, #-0x10]! ; adrp x16, #0x411000 ; ldr x17, [x16, #0xff8] ; add x16, x16, #0xff8 ; br x17
+0x0000000000400c84 : stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400c20 : str w0, [sp, #0x1c] ; ldr w0, [sp, #0x1c] ; cmp w0, #0xa ; b.eq #0x400c3c ; ldr w0, [sp, #0x1c] ; cmn w0, #1 ; b.ne #0x400c1c ; nop ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008d8 : str x19, [sp, #0x10] ; adrp x19, #0x412000 ; ldrb w0, [x19, #0x68] ; cbnz w0, #0x4008f4 ; bl #0x400860 ; mov w0, #1 ; strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400904 : str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400904 : str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret
+0x0000000000400904 : str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret ; mov x2, sp ; ldp x29, x30, [sp], #0x10 ; ret ; ldr x0, [x2, #0x10] ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004008f0 : strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004008f0 : strb w0, [x19, #0x68] ; ldr x19, [sp, #0x10] ; ldp x29, x30, [sp], #0x20 ; ret ; b #0x400890 ; str x19, [sp, #8] ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004008a0 : sub x1, x1, x0 ; lsr x2, x1, #0x3f ; add x1, x2, x1, asr #3 ; asr x1, x1, #1 ; cbz x1, #0x4008c8 ; adrp x2, #0x400000 ; ldr x2, [x2, #0xca8] ; cbz x2, #0x4008c8 ; mov x16, x2 ; br x16
+0x0000000000400b7c : subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400b8c ; bl #0x400750 ; ldp x29, x30, [sp], #0x40 ; ret
+0x0000000000400bf8 : subs x2, x2, x1 ; mov x1, #0 ; b.eq #0x400c08 ; bl #0x400750 ; ldp x29, x30, [sp], #0x80 ; ret
+0x0000000000400a04 : subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400a14 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x0000000000400af0 : subs x3, x3, x2 ; mov x2, #0 ; b.eq #0x400b00 ; bl #0x400750 ; mov w0, w1 ; ldp x29, x30, [sp], #0x20 ; ret
+0x00000000004006f4 : udf #0 ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004006f0 : udf #0 ; udf #0 ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004006e8 : udf #0x402 ; udf #0xf ; udf #0 ; udf #0 ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+0x00000000004006ec : udf #0xf ; udf #0 ; udf #0 ; nop ; stp x29, x30, [sp, #-0x10]! ; mov x29, sp ; bl #0x400844 ; ldp x29, x30, [sp], #0x10 ; ret
+
+Unique gadgets found: 269
