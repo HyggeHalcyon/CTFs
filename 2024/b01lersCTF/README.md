@@ -1,5 +1,7 @@
 # b01lers CTF 2024
 
+[writeup](https://hyggehalcyon.gitbook.io/page/ctfs/2024/b01lers-ctf)
+
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
 | arm-and-a-leg | ✅ | pwn | ARM printf leak canary & ret2libc |
