@@ -3,7 +3,9 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| b01lersCTF | HCS | 31 / 393 | - |
+| CTF@CIT | HCS | 42 / 553 | - |
+| UMassCTF | HCS | 66 / 417 | [gitbook]() |
+| b01lersCTF | HCS | 31 / 393 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/b01lers-ctf) |
 | AmateursCTF | HCS | 144 / 1536 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/amateursctf) |
 | swampCTF | HCS | 3rd / 362 | - |
 | RITSEC CTF | HCS | 20th / 360 | - |
