@@ -1,4 +1,4 @@
-# RITSEC CTF 2024
+# AirOverflow CTF 2024
 
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
