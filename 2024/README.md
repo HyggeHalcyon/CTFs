@@ -3,8 +3,10 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| cr3 CTF | HCS | ?? / ?? | - |
-| UMD CTF | HCS | ?? / ?? | - |
+| squ1rrel CTF | HCS | ? / ? | - |
+| BSidesSF CTF | HCS | 14 / 583 | - |
+| cr3 CTF | HCS | - / - | - |
+| UMD CTF | HCS | - / - | - |
 | AirOverflow CTF | HCS | 2nd / 155 | - |
 | urchinsec | HCS | 7 / 66 | - |
 | CTF@CIT | HCS | 42 / 553 | - |
