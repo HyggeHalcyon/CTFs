@@ -3,16 +3,17 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| squ1rrel CTF | HCS | ? / ? | - |
-| BSidesSF CTF | HCS | 14 / 583 | - |
-| cr3 CTF | HCS | - / - | - |
-| UMD CTF | HCS | - / - | - |
+| TBTL CTF | HCS | ? / ? | [gitbook]() |
+| squ1rrel CTF | HCS | 29 | [gitbook]() |
+| BSidesSF CTF | HCS | 14 / 583 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/bsidessf-ctf) |
+| cr3 CTF | HCS | 86 / 398 | [gitbook]() |
+| UMD CTF | HCS | 114 / 562 | [gitbook]() |
 | AirOverflow CTF | HCS | 2nd / 155 | - |
 | urchinsec | HCS | 7 / 66 | - |
 | CTF@CIT | HCS | 42 / 553 | - |
 | UMassCTF | HCS | 66 / 417 | [gitbook]() |
 | b01lersCTF | HCS | 31 / 393 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/b01lers-ctf) |
-| AmateursCTF | HCS | 144 / 1536 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/amateursctf) |
+| AmateursCTF | HCS | 144 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/amateursctf) |
 | swampCTF | HCS | 3rd / 362 | - |
 | RITSEC CTF | HCS | 20th / 360 | - |
 | UNbreakable International - Team Phase | HCS | 2nd / 341 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/unbreakable-international-team-phase) |
@@ -25,7 +26,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| Find IT CTF Quals |  Jeopardy | Neuro-sama | ?? / ?? | - |
+| Find IT CTF Quals |  Jeopardy | Neuro-sama | 22* / 80 | - |
 | NETCOMP 2.0 CTF Quals |  Jeopardy | Neuro-sama | 4th / 87 | - |
 | TECHCOMPFEST CTF Quals |  Jeopardy | Neuro-sama | 2nd / 51 | - |
 
