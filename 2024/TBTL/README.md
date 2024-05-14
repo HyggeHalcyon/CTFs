@@ -1,6 +1,6 @@
 # TBTL CTF 2024
 
-[writeup]()
+[writeup](https://hyggehalcyon.gitbook.io/page/ctfs/2024/tbtl-ctf)
 
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |

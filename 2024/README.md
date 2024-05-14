@@ -3,7 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| TBTL CTF | HCS | ? / ? | [gitbook]() |
+| TBTL CTF | HCS | ? / ? | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/tbtl-ctf) |
 | squ1rrel CTF | HCS | 29 | [gitbook]() |
 | BSidesSF CTF | HCS | 14 / 583 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/bsidessf-ctf) |
 | cr3 CTF | HCS | 86 / 398 | [gitbook]() |
