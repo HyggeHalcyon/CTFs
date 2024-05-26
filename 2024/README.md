@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| L3ak CTF | HCS | 11 / 497 | - |
 | Break the Syntax CTF | HCS | 3rd / 147 | - |
 | BYU CTF | legoclones fan club | 2nd / 1230 | - |
 | TBTL CTF | HCS | 20 / 792 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/tbtl-ctf) |
