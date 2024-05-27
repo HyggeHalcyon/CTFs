@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| Country2Country Quals | HyHal (solo) | 19 / 122 | - |
 | L3ak CTF | HCS | 11 / 497 | - |
 | Break the Syntax CTF | HCS | 3rd / 147 | - |
 | BYU CTF | legoclones fan club | 2nd / 1230 | - |

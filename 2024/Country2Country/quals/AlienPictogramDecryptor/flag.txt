@@ -1,0 +1,1 @@
+FLAG{fun_with_metadata_and_scripting}
