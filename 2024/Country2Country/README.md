@@ -3,7 +3,7 @@
 ## Quals
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
-| WormExterminator | ❌ (210 pts) | Reverse Engineering | Go binary |
+| WormExterminator | ❌ (210 pts) | Reverse Engineering | Go binary, solve after ctf thx to [Wrth](https://github.com/Wrth1) |
 | I hate persistent malware | ✅ (130 pts) | Forensic | disk image forensic |
 | USBHashAnalyzer | ✅ (50 pts) | OSINT | virustotal hash |
 | AlienPictogramDecryptor | ✅ (80 pts) | Forensic | exif metadata Comments |
