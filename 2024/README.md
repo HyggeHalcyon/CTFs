@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| vsCTF | HCS | 21 / 964 | - |
 | Country2Country Quals | HyHal (solo) | 19 / 122 | - |
 | L3ak CTF | HCS | 11 / 497 | - |
 | Break the Syntax CTF | HCS | 3rd / 147 | - |
