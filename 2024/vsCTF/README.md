@@ -1,4 +1,4 @@
-# WxMCTF CTF 2024
+# vsCTF CTF 2024
 
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
