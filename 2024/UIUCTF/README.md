@@ -1,5 +1,7 @@
 # UIUCTF 2024
 
+[writeup](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc)
+
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
 | Rusty Pointers | ❌ | pwn | todo |

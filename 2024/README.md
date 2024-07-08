@@ -3,7 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| UIUCTF | Project Sekai | 12 | - |
+| UIUCTF | Project Sekai | 12 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc) |
 | vsCTF | HCS | 21 / 964 | - |
 | Country2Country Quals | HyHal (solo) | 19 / 122 | - |
 | L3ak CTF | HCS | 11 / 497 | - |
