@@ -32,6 +32,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| LEST 1.0 CTF |  Jeopardy | HyggeHalcyon | 5* / 21 | - |
 | TechnoFair 11.0 CTF Quals |  Jeopardy | Neuro-sama | 2* / 46 | - |
 | Find IT CTF Quals |  Jeopardy | Neuro-sama | 22* / 80 | - |
 | NETCOMP 2.0 CTF Quals |  Jeopardy | Neuro-sama | 4th / 87 | - |
