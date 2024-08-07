@@ -5,7 +5,7 @@
 | --- | :---: |  :---: | :---: |
 | UIUCTF | Project Sekai | 12 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc) |
 | vsCTF | HCS | 21 / 964 | - |
-| Country2Country Quals | HyHal (solo) | 19 / 122 | - |
+| Country2Country Quals | HyHal | 19 / 122 | - |
 | L3ak CTF | HCS | 11 / 497 | - |
 | Break the Syntax CTF | HCS | 3rd / 147 | - |
 | BYU CTF | legoclones fan club | 2nd / 1230 | - |
@@ -28,12 +28,12 @@
 | WxMCTF | HCS | 11 / 262 | - |
 | osu!gamingCTF | HCS | 79 / 984 | - | 
     
-    
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| LEST 1.0 CTF |  Jeopardy | HyggeHalcyon | 5* / 21 | - |
-| TechnoFair 11.0 CTF Quals |  Jeopardy | Neuro-sama | 2* / 46 | - |
+| Gemastik X CTF Quals | Jeopardy | Kos0ng Fans CLub | 1st* / 143 | - |
+| LEST 1.0 CTF |  Jeopardy | HyggeHalcyon | 3rd / 21 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/LEST/WU_LEST2024_HyggeHalcyon.pdf) |
+| TechnoFair 11.0 CTF Quals |  Jeopardy | Neuro-sama | 2nd* / 46 | - |
 | Find IT CTF Quals |  Jeopardy | Neuro-sama | 22* / 80 | - |
 | NETCOMP 2.0 CTF Quals |  Jeopardy | Neuro-sama | 4th / 87 | - |
 | TECHCOMPFEST CTF Quals |  Jeopardy | Neuro-sama | 2nd / 51 | - |
