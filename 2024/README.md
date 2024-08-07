@@ -31,7 +31,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| Gemastik X CTF Quals | Jeopardy | Kos0ng Fans CLub | 1st* / 143 | - |
+| Gemastik X CTF Quals | Jeopardy | Kos0ng Fans CLub | 1st* / 143 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/GemastikCTF/Quals/GEMASTIK_QUALS_HCS-kos0ngFansClub.pdf) |
 | LEST 1.0 CTF |  Jeopardy | HyggeHalcyon | 3rd / 21 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/LEST/WU_LEST2024_HyggeHalcyon.pdf) |
 | TechnoFair 11.0 CTF Quals |  Jeopardy | Neuro-sama | 2nd* / 46 | - |
 | Find IT CTF Quals |  Jeopardy | Neuro-sama | 22* / 80 | - |
