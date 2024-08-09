@@ -1,6 +1,6 @@
 # UMass CTF 2024
 
-[writeup]()
+[writeup](https://hyggehalcyon.gitbook.io/page/ctfs/2024/umassctf)
 
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
