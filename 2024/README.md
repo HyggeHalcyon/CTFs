@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| ImaginaryCTF | Project Sekai | 14 | - |
 | UIUCTF | Project Sekai | 12 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc) |
 | vsCTF | HCS | 21 / 964 | - |
 | Country2Country Quals | HyHal | 19 / 122 | - |
