@@ -5,6 +5,7 @@
 | --- | :---: |  :---: | :---: |
 | ImaginaryCTF | Project Sekai | 14 | - |
 | UIUCTF | Project Sekai | 12 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc) |
+| ångstromCTF | Project Sekai | 2nd | - |
 | vsCTF | HCS | 21 / 964 | - |
 | Country2Country Quals | HyHal | 19 / 122 | - |
 | L3ak CTF | HCS | 11 / 497 | - |
