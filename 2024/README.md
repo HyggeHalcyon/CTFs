@@ -33,6 +33,8 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Cyber Ops Clash CTF Quals | Jeopardy | Togenashi Togeari | 2nd* / 23 | - |
+| Wreck IT 5.0 Finals | Attack & Defense | Girls Band Cry | 5 / 10 | - |
 | Wreck IT 5.0 Quals | Jeopardy | Girls Band Cry | 6 / 124 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/WreckIT/Quals/GirlsBandCry_General.pdf) |
 | Gemastik XVII CTF Quals | Jeopardy | HCS - Kos0ng Fans Club | 1st* / 143 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/GemastikCTF/Quals/GEMASTIK_QUALS_HCS-kos0ngFansClub.pdf) |
 | LEST 1.0 CTF |  Jeopardy | HyggeHalcyon | 3rd / 21 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/LEST/WU_LEST2024_HyggeHalcyon.pdf) |
