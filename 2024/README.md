@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| CODE GATE CTF FINAL | Project Sekai | 19 / 20 | - |
 | ImaginaryCTF | Project Sekai | 14 | - |
 | UIUCTF | Project Sekai | 12 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc) |
 | ångstromCTF | Project Sekai | 2nd | - |
@@ -33,6 +34,8 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Compfest CTF Finals | Jeopardy | seisyun complex | ? / ? |  |
+| Compfest CTF Quals | Jeopardy | seisyun complex | 7* / 242 | [PDF]() |
 | HackToday CTF Finals | Jeopardy | girls band cry | ? / 10 |  |
 | HackToday CTF Quals | Jeopardy | girls band cry | 2nd* / 37 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/HackToday/quals/WU_HackToday2024_girls_band_cry.pdf) |
 | Cyber Ops Clash Meta4Sec CTF Final | Jeopardy | Togenashi Togeari | 2nd / 10 | - |
