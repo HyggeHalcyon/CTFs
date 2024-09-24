@@ -1,0 +1,36 @@
+import { Injectable } from '@nestjs/common';
+
+import { Session } from 'src/auth/auth.model';
+import { KVService } from 'src/kv/kv.service';
+import { KodeDTO } from './kode.dto';
+
+@Injectable()
+export class KodeService {
+  constructor(private kv: KVService) {}
+
+  async create(email: string, payload: KodeDTO) {
+    // ..snippet
+  }
+
+  async list(user: Session) {
+    const kodes = user.isAdmin
+      ? await this.kv.find('kode-*')
+      // PATCH LINE BELOW
+      : await this.kv.find(`kode-${user.email.replace(/[^a-zA-Z0-9.@]/g, '')}-*`);
+    return this.parse(kodes);
+  }
+
+  async show(key) {
+    // ..snippet
+  }
+
+  async find(pattern: string) {
+    pattern = pattern.replace(/[^a-zA-Z0-9.@]/g, ''); // <-PATCH
+    const kodes = await this.kv.find(`*${pattern}*-public`);
+    return this.parse(kodes);
+  }
+
+  parse(keys: string[]) {
+        // ..snippet
+  }
+}

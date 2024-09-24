@@ -35,14 +35,14 @@
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
 | Compfest CTF Finals | Jeopardy | seisyun complex | ? / ? |  |
-| Compfest CTF Quals | Jeopardy | seisyun complex | 7* / 242 | [PDF]() |
+| Compfest CTF Quals | Jeopardy | seisyun complex | 5 / 242 | |
 | HackToday CTF Finals | Jeopardy | girls band cry | ? / 10 |  |
 | HackToday CTF Quals | Jeopardy | girls band cry | 2nd* / 37 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/HackToday/quals/WU_HackToday2024_girls_band_cry.pdf) |
 | Cyber Ops Clash Meta4Sec CTF Final | Jeopardy | Togenashi Togeari | 2nd / 10 | - |
 | Cyber Ops Clash Meta4Sec CTF Quals | Jeopardy | Togenashi Togeari | 2nd* / 23 | - |
 | Wreck IT 5.0 Finals | Attack & Defense | Girls Band Cry | 5 / 10 | - |
 | Wreck IT 5.0 Quals | Jeopardy | Girls Band Cry | 6 / 124 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/WreckIT/Quals/GirlsBandCry_General.pdf) |
-| Gemastik XVII CTF Finals | Attack & Defense | HCS - Kos0ng Fans Club | ? / 20 |  |
+| Gemastik XVII CTF Finals | Attack & Defense | HCS - Kos0ng Fans Club | 5th / 20 |  |
 | Gemastik XVII CTF Quals | Jeopardy | HCS - Kos0ng Fans Club | 1st* / 143 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/GemastikCTF/Quals/GEMASTIK_QUALS_HCS-kos0ngFansClub.pdf) |
 | LEST 1.0 CTF |  Jeopardy | HyggeHalcyon | 3rd / 21 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/LEST/WU_LEST2024_HyggeHalcyon.pdf) |
 | TechnoFair 11.0 CTF Quals |  Jeopardy | Neuro-sama | 2nd* / 46 | - |
