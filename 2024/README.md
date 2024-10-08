@@ -34,9 +34,9 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| Compfest CTF Finals | Jeopardy | seisyun complex | ? / ? |  |
+| Compfest CTF Finals | Jeopardy | seisyun complex | 3rd / 15 |  |
 | Compfest CTF Quals | Jeopardy | seisyun complex | 5 / 242 | |
-| HackToday CTF Finals | Jeopardy | girls band cry | ? / 10 |  |
+| HackToday CTF Finals | Jeopardy | girls band cry | 3rd / 10 |  |
 | HackToday CTF Quals | Jeopardy | girls band cry | 2nd* / 37 | [PDF](https://github.com/HyggeHalcyon/CTFs/blob/main/2024/HackToday/quals/WU_HackToday2024_girls_band_cry.pdf) |
 | Cyber Ops Clash Meta4Sec CTF Final | Jeopardy | Togenashi Togeari | 2nd / 10 | - |
 | Cyber Ops Clash Meta4Sec CTF Quals | Jeopardy | Togenashi Togeari | 2nd* / 23 | - |
