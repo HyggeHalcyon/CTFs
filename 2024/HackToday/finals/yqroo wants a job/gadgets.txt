@@ -1,0 +1,70 @@
+Gadgets information
+============================================================
+0x0000000000401069 : add byte ptr [rax], al ; syscall
+0x0000000000401014 : add eax, edi ; jmp qword ptr [rcx]
+0x000000000040102c : add ecx, dword ptr [rsp + 0x18] ; jmp qword ptr [rdx - 0x1d]
+0x0000000000401024 : add ecx, eax ; xor rbx, rcx ; jmp rbx
+0x000000000040100a : add edx, ecx ; jmp qword ptr [rdx - 0x45]
+0x000000000040102b : add rcx, qword ptr [rsp + 0x18] ; jmp qword ptr [rdx - 0x1d]
+0x0000000000401023 : add rcx, rax ; xor rbx, rcx ; jmp rbx
+0x0000000000401009 : add rdx, rcx ; jmp qword ptr [rdx - 0x45]
+0x000000000040102e : and al, 0x18 ; jmp qword ptr [rdx - 0x1d]
+0x0000000000401015 : clc ; jmp qword ptr [rcx]
+0x0000000000401008 : fisttp dword ptr [rax + 1] ; retf 0x62ff
+0x0000000000401056 : inc ax ; nop ; syscall
+0x0000000000401051 : inc bh ; mov rsi, rsp ; inc ax ; nop ; syscall
+0x0000000000401057 : inc eax ; nop ; syscall
+0x0000000000401067 : jae 0x401069 ; add byte ptr [rax], al ; syscall
+0x0000000000401019 : jmp qword ptr [rcx + 0x47]
+0x0000000000401011 : jmp qword ptr [rcx - 0x11]
+0x0000000000401016 : jmp qword ptr [rcx]
+0x000000000040103f : jmp qword ptr [rdi + 0xb]
+0x0000000000401030 : jmp qword ptr [rdx - 0x1d]
+0x000000000040100c : jmp qword ptr [rdx - 0x45]
+0x0000000000401006 : jmp qword ptr [rsi - 0x25]
+0x0000000000401029 : jmp rbx
+0x0000000000401043 : jrcxz 0x400fd5 ; stc ; xchg rcx, rdx ; jmp qword ptr [rcx]
+0x000000000040102a : jrcxz 0x401074 ; add ecx, dword ptr [rsp + 0x18] ; jmp qword ptr [rdx - 0x1d]
+0x0000000000401032 : jrcxz 0x40107c ; sub esi, ebx ; jmp qword ptr [rcx]
+0x000000000040100e : mov ebx, 0x61ff9090 ; out dx, eax ; add eax, edi ; jmp qword ptr [rcx]
+0x0000000000401066 : mov edx, 0x73 ; syscall
+0x0000000000401054 : mov esi, esp ; inc ax ; nop ; syscall
+0x0000000000401053 : mov rsi, rsp ; inc ax ; nop ; syscall
+0x0000000000401042 : mul bl ; nop ; stc ; xchg rcx, rdx ; jmp qword ptr [rcx]
+0x0000000000401010 : nop ; jmp qword ptr [rcx - 0x11]
+0x000000000040100f : nop ; nop ; jmp qword ptr [rcx - 0x11]
+0x0000000000401044 : nop ; stc ; xchg rcx, rdx ; jmp qword ptr [rcx]
+0x0000000000401059 : nop ; syscall
+0x0000000000401041 : or esi, esi ; jrcxz 0x400fd5 ; stc ; xchg rcx, rdx ; jmp qword ptr [rcx]
+0x0000000000401055 : out 0x66, al ; inc eax ; nop ; syscall
+0x0000000000401013 : out dx, eax ; add eax, edi ; jmp qword ptr [rcx]
+0x0000000000401018 : pop rbx ; jmp qword ptr [rcx + 0x47]
+0x0000000000401000 : pop rbx ; pop rsp ; pop rdi ; pop rdx ; pop rsi ; pop rcx ; jmp qword ptr [rsi - 0x25]
+0x0000000000401005 : pop rcx ; jmp qword ptr [rsi - 0x25]
+0x0000000000401002 : pop rdi ; pop rdx ; pop rsi ; pop rcx ; jmp qword ptr [rsi - 0x25]
+0x0000000000401003 : pop rdx ; pop rsi ; pop rcx ; jmp qword ptr [rsi - 0x25]
+0x0000000000401004 : pop rsi ; pop rcx ; jmp qword ptr [rsi - 0x25]
+0x0000000000401001 : pop rsp ; pop rdi ; pop rdx ; pop rsi ; pop rcx ; jmp qword ptr [rsi - 0x25]
+0x0000000000401028 : retf
+0x000000000040100b : retf 0x62ff
+0x0000000000401022 : ror byte ptr [rax + 1], cl ; ror dword ptr [rax + 0x31], 0xcb ; jmp rbx
+0x0000000000401025 : ror dword ptr [rax + 0x31], 0xcb ; jmp rbx
+0x0000000000401045 : stc ; xchg rcx, rdx ; jmp qword ptr [rcx]
+0x000000000040103d : sub eax, ecx ; jmp qword ptr [rdi + 0xb]
+0x0000000000401063 : sub esi, 0x63 ; mov edx, 0x73 ; syscall
+0x0000000000401034 : sub esi, ebx ; jmp qword ptr [rcx]
+0x000000000040103c : sub rax, rcx ; jmp qword ptr [rdi + 0xb]
+0x0000000000401062 : sub rsi, 0x63 ; mov edx, 0x73 ; syscall
+0x0000000000401033 : sub rsi, rbx ; jmp qword ptr [rcx]
+0x000000000040105a : syscall
+0x000000000040103b : wait ; sub rax, rcx ; jmp qword ptr [rdi + 0xb]
+0x0000000000401047 : xchg ecx, edx ; jmp qword ptr [rcx]
+0x0000000000401039 : xchg esi, edi ; wait ; sub rax, rcx ; jmp qword ptr [rdi + 0xb]
+0x0000000000401046 : xchg rcx, rdx ; jmp qword ptr [rcx]
+0x0000000000401038 : xchg rsi, rdi ; wait ; sub rax, rcx ; jmp qword ptr [rdi + 0xb]
+0x0000000000401027 : xor ebx, ecx ; jmp rbx
+0x0000000000401021 : xor edx, edx ; add rcx, rax ; xor rbx, rcx ; jmp rbx
+0x0000000000401026 : xor rbx, rcx ; jmp rbx
+0x0000000000401020 : xor rdx, rdx ; add rcx, rax ; xor rbx, rcx ; jmp rbx
+
+Unique gadgets found: 66
