@@ -1,0 +1,96 @@
+diff --git a/src/builtins/builtins-array.cc b/src/builtins/builtins-array.cc
+index 61e1c36b830..c73361d815a 100644
+--- a/src/builtins/builtins-array.cc
++++ b/src/builtins/builtins-array.cc
+@@ -653,6 +653,32 @@ BUILTIN(ArrayUnshift) {
+   return Smi::FromInt(new_length);
+ }
+ 
++BUILTIN(ArrayWhutSet) {
++  HandleScope scope(isolate);
++  DCHECK_EQ(2, args.length());
++  DCHECK(IsJSArray(*args.receiver()));
++
++  Handle<Object> array_obj = args.at(0);
++  Handle<Object> new_value_obj = args.at(1);
++
++  DCHECK(IsNumber(new_value_obj));
++
++  // Cast the array_obj to a JSArray handle
++  Handle<JSArray> array = Handle<JSArray>::cast(array_obj);
++
++  uint32_t new_value_uint32 = static_cast<uint32_t>(Object::Number(*new_value_obj));
++
++  if (new_value_uint32 < 0 || new_value_uint32 > static_cast<double>(kMaxUInt32)) {
++    THROW_NEW_ERROR_RETURN_FAILURE(isolate, NewRangeError(MessageTemplate::kInvalidArrayLength));
++  }
++
++  array->set_length(Smi::FromInt(new_value_uint32));
++
++  // Return undefined as the result (V8 convention for setter operations)
++  return ReadOnlyRoots(isolate).undefined_value();
++
++}
++
+ // Array Concat -------------------------------------------------------------
+ 
+ namespace {
+diff --git a/src/builtins/builtins-definitions.h b/src/builtins/builtins-definitions.h
+index a522d377569..12a7b265f6f 100644
+--- a/src/builtins/builtins-definitions.h
++++ b/src/builtins/builtins-definitions.h
+@@ -443,6 +443,7 @@ namespace internal {
+   TFJ(ArrayPrototypeValues, kJSArgcReceiverSlots, kReceiver)                   \
+   /* ES6 #sec-%arrayiteratorprototype%.next */                                 \
+   TFJ(ArrayIteratorPrototypeNext, kJSArgcReceiverSlots, kReceiver)             \
++  CPP(ArrayWhutSet)                                                            \
+                                                                                \
+   /* ArrayBuffer */                                                            \
+   /* ES #sec-arraybuffer-constructor */                                        \
+diff --git a/src/compiler/typer.cc b/src/compiler/typer.cc
+index 9a346d134b9..e02a5e0076d 100644
+--- a/src/compiler/typer.cc
++++ b/src/compiler/typer.cc
+@@ -1937,6 +1937,8 @@ Type Typer::Visitor::JSCallTyper(Type fun, Typer* t) {
+       return Type::Receiver();
+     case Builtin::kArrayUnshift:
+       return t->cache_->kPositiveSafeInteger;
++    case Builtin::kArrayWhutSet:
++      return Type::Receiver();
+ 
+     // ArrayBuffer functions.
+     case Builtin::kArrayBufferIsView:
+diff --git a/src/d8/d8.cc b/src/d8/d8.cc
+index 4d363e33ca6..15a950b5fb3 100644
+--- a/src/d8/d8.cc
++++ b/src/d8/d8.cc
+@@ -3337,6 +3337,7 @@ Local<FunctionTemplate> Shell::CreateNodeTemplates(
+ 
+ Local<ObjectTemplate> Shell::CreateGlobalTemplate(Isolate* isolate) {
+   Local<ObjectTemplate> global_template = ObjectTemplate::New(isolate);
++/*
+   global_template->Set(Symbol::GetToStringTag(isolate),
+                        String::NewFromUtf8Literal(isolate, "global"));
+   global_template->Set(isolate, "version",
+@@ -3384,7 +3385,7 @@ Local<ObjectTemplate> Shell::CreateGlobalTemplate(Isolate* isolate) {
+     global_template->Set(isolate, "async_hooks",
+                          Shell::CreateAsyncHookTemplate(isolate));
+   }
+-
++*/
+   return global_template;
+ }
+ 
+diff --git a/src/init/bootstrapper.cc b/src/init/bootstrapper.cc
+index de0b6df336b..bd19683379b 100644
+--- a/src/init/bootstrapper.cc
++++ b/src/init/bootstrapper.cc
+@@ -2566,6 +2566,8 @@ void Genesis::InitializeGlobal(Handle<JSGlobalObject> global_object,
+                           false);
+     SimpleInstallFunction(isolate_, proto, "join", Builtin::kArrayPrototypeJoin,
+                           1, false);
++    SimpleInstallFunction(isolate_, proto, "whutset", Builtin::kArrayWhutSet,
++                          0, false);
+ 
+     {  // Set up iterator-related properties.
+       Handle<JSFunction> keys = InstallFunctionWithBuiltinId(

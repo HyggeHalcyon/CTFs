@@ -34,6 +34,8 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| NCW CTF Finals | Jeopardy | Times heals all sorrows .... | ? / ? | |
+| NCW CTF Quals | Jeopardy | Times heals all sorrows .... | 9 / 54 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/national-cyber-week-quals) |
 | Compfest CTF Finals | Jeopardy | seisyun complex | 3rd / 15 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/compfest-16-finals)  |
 | Compfest CTF Quals | Jeopardy | seisyun complex | 5 / 242 | |
 | HackToday CTF Finals | Jeopardy | girls band cry | 3rd / 10 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/hacktoday-finals)  |

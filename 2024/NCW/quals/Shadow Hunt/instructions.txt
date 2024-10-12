@@ -1,0 +1,9 @@
+One of our top agents has gone rogue and fled to an unknown location. Despite his skills, he can’t escape our omniscient radar. We’ve gathered crucial information and clues about his possible destination.
+
+The image is the destination of the rogue agent.
+The metal pole with chains you see has a height of 325 pixels, and its shadow is 125 pixels long.
+The image was taken on 1 August 2022, 02:07:34 UTC.
+
+Your task, should you choose to accept it, is to find the destination country the rogue agent has fled to.
+Best of luck, agent.
+This message will self-destruct in 10 seconds.
