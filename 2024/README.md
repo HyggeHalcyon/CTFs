@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| sunshineCTF | HCS | 2nd / 642 | - |
 | CODE GATE CTF FINAL | Project Sekai | 19 / 20 | - |
 | ImaginaryCTF | Project Sekai | 14 | - |
 | UIUCTF | Project Sekai | 12 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/uiuctf#pwnymalloc) |
