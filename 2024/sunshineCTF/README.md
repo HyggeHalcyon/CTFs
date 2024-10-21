@@ -1,6 +1,4 @@
-# squ1rrel CTF 2024
-
-[writeup]()
+# Sunshine CTF 2024
 
 | Challenge | solved | Category | Description | 
 | --- | :---: | :---: | --- |
