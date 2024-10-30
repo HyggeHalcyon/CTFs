@@ -3,7 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| Cyber Jawara International | swusjask fans club | 2nd / 211 | - |
+| Cyber Jawara International | swusjask fans club | 2nd / 211 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/cyber-jawara-international) |
 | ISITDTU Qualifier | Project Sekai | 1st / 315 | - |
 | sunshineCTF | HCS | 2nd / 642 | - |
 | CODE GATE CTF FINAL | Project Sekai | 19 / 20 | - |

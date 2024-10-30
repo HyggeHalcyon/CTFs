@@ -1,0 +1,13 @@
+--- a/linux-6.11.5/drivers/char/mem.c
++++ b/linux-6.11.5/drivers/char/mem.c
+@@ -606,9 +606,6 @@
+ {
+ 	int rc;
+ 
+-	if (!capable(CAP_SYS_RAWIO))
+-		return -EPERM;
+-
+ 	rc = security_locked_down(LOCKDOWN_DEV_MEM);
+ 	if (rc)
+ 		return rc;
+
