@@ -39,7 +39,7 @@
 | --- | :---: |  :---: |  :---: | :---: |
 | NCW CTF Finals | Jeopardy | Times heals all sorrows .... | ? / ? | - |
 | NCW CTF Quals | Jeopardy | Times heals all sorrows .... | 9 / 54 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/national-cyber-week-quals) |
-| Hology 7.0 CTF Finals | Jeopardy | Sogno di Volare | ? / 10 | - |
+| Hology 7.0 CTF Finals | Jeopardy | Sogno di Volare | 2nd / 11 | - |
 | Hology 7.0 CTF Quals | Jeopardy | Sogno di Volare | 5 / 55 | - |
 | Compfest CTF Finals | Jeopardy | seisyun complex | 3rd / 15 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/compfest-16-finals)  |
 | Compfest CTF Quals | Jeopardy | seisyun complex | 5 / 242 | - |
