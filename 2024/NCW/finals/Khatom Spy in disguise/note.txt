@@ -1,0 +1,17 @@
+target remote localhost:1234
+
+kmalloc
+break *0xffffffffc0000292
+
+kfree
+break *0xffffffffc0000333
+
+migrate
+break *0xffffffffc0000188
+
+pivot gadget:
+break *0xffffffff819dff9e
+
+loot:
+0xffff888006710800
+0xffff888006710000
