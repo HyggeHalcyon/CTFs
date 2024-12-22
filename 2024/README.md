@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| HackTheBox University CTF | HCS | 16th | - | 
 | ISITDTU Finals | Project Sekai | 2nd | - |
 | World Wide CTF | HCS | 8 / 581 | - |
 | Cyber Jawara International | swusjask fans club | 2nd / 211 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/cyber-jawara-international) |
