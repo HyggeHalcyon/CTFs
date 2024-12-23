@@ -143,7 +143,7 @@ msg_msg_buf* peek_msg(int msqid, size_t size) {
     if (msg == NULL) panic("consume_msg: calloc");
 
     if (msgrcv(msqid, msg, size, 0x0, MSG_NOERROR | IPC_NOWAIT | MSG_COPY) < 0) {
-        error("consume_msg: msgrcv");
+        error("peek_msg: msgrcv");
         return 0x0;
     }
 
@@ -159,4 +159,3 @@ void dump_hex(char *buf, size_t size) {
 static void __attribute__((constructor)) init(void){
 	setvbuf(stdout, NULL, _IONBF, 0);
 }
-

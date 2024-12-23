@@ -10,6 +10,6 @@ else
     musl-gcc $in -static -lpthread -pie -s -O0 -fPIE -o $out || exit 255
     cp $out debugfs
     pushd . && pushd debugfs
-    find . -print0 | cpio --null --format=newc -o 2>/dev/null | gzip -9 > ../debugfs.cpio.gz
+    find . -print0 | cpio --null --format=newc --owner=root -o 2>/dev/null | gzip -9 > ../debugfs.cpio.gz
     popd
 fi

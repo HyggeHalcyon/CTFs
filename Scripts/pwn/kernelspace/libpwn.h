@@ -20,25 +20,24 @@
 #include <sys/msg.h>
 #include <stdint.h>
 #include <errno.h>
-#include <linux/userfaultfd.h>
 #include <stddef.h>
-#include <linux/socket.h>
 #include <sys/socket.h>
 #include <sys/un.h>
 #include <assert.h>
-#include <linux/if_packet.h>
 #include <sys/timerfd.h>
 #include <sys/resource.h>
 #include <sys/ptrace.h>
 #include <sys/user.h>
 #include <netinet/tcp.h>  // for SOL_TCP, TCP options
 #include <sys/prctl.h>
-#include <asm/prctl.h>
+#include <poll.h>
+#include <sys/shm.h>
 
 #define TTYMAGIC                    0x5401
 #define PIPE_NUM                    256
 #define SOCKET_NUM                  0x20
 #define NO_ASLR_BASE                0xffffffff81000000
+#define MSG_COPY                    040000
 
 #define TTY_FILE                        "/dev/ptmx"  
 #define DEFAULT_FAKE_MODPROBE_PATH      "/tmp/fake"
