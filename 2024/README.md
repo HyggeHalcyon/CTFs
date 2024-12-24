@@ -3,9 +3,10 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| BackdoorCTF | ADA INDONESIA COY | 1st/ 477 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/backdoorctf) | 
 | HackTheBox University CTF | HCS | 16th | - | 
 | ISITDTU Finals | Project Sekai | 2nd | - |
-| World Wide CTF | HCS | 8 / 581 | - |
+| World Wide CTF | HCS | 8 / 581 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/world-wide-ctf) |
 | Cyber Jawara International | swusjask fans club | 2nd / 211 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/cyber-jawara-international) |
 | ISITDTU Qualifier | Project Sekai | 1st / 315 | - |
 | sunshineCTF | HCS | 2nd / 642 | - |
@@ -40,6 +41,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| TSA Cyber Champion | Jeopardy | HCS - Murid Mentor | 7 / 239 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/tsa-cyber-champion) |
 | NCW CTF Finals | Jeopardy | Times heals all sorrows .... | 2nd / 10 | - |
 | NCW CTF Quals | Jeopardy | Times heals all sorrows .... | 9 / 54 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/national-cyber-week-quals) |
 | Hology 7.0 CTF Finals | Jeopardy | Sogno di Volare | 2nd / 11 | - |
