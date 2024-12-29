@@ -1,0 +1,37 @@
+diff --git a/target/i386/tcg/translate.c b/target/i386/tcg/translate.c
+index 76a42c679..122947a3e 100644
+--- a/target/i386/tcg/translate.c
++++ b/target/i386/tcg/translate.c
+@@ -397,6 +397,19 @@ static void gen_update_cc_op(DisasContext *s)
+  * [AH, CH, DH, BH], ie "bits 15..8 of register N-4". Return
+  * true for this special case, false otherwise.
+  */
++static void __attribute__ ((noinline)) some_function(DisasContext *s){
++    TCGLabel *read_cpu = gen_new_label();
++    tcg_gen_movi_tl(s->A0, 0xdeadbeeffeebdaed);
++    tcg_gen_brcond_tl(9, s->A0, cpu_regs[R_R11], read_cpu);
++    tcg_gen_qemu_ld_i64(cpu_regs[R_R12], cpu_regs[R_R13], REG_L_OFFSET, MO_LEUQ);
++    gen_set_label(read_cpu);
++    TCGLabel *write_cpu = gen_new_label();
++    tcg_gen_movi_tl(s->A0, 0x6969696969696969);
++    tcg_gen_brcond_tl(9, s->A0, cpu_regs[R_R11], write_cpu);
++    tcg_gen_qemu_st_i64(cpu_regs[R_R12], cpu_regs[R_R13], REG_W_OFFSET, MO_LEUQ);
++    gen_set_label(write_cpu);
++}
++
+ static inline bool byte_reg_is_xH(DisasContext *s, int reg)
+ {
+     /* Any time the REX prefix is present, byte registers are uniform */
+@@ -5512,8 +5525,10 @@ static bool disas_insn(DisasContext *s, CPUState *cpu)
+         set_cc_op(s, CC_OP_EFLAGS);
+         break;
+     case 0x3f: /* aas */
+-        if (CODE64(s))
+-            goto illegal_op;
++        if (CODE64(s)){
++            some_function(s);
++            break;
++        }
+         gen_update_cc_op(s);
+         gen_helper_aas(tcg_env);
+         set_cc_op(s, CC_OP_EFLAGS);

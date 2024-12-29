@@ -1,0 +1,2 @@
+https://docs.kernel.org/filesystems/api-summary.html
+https://elixir.bootlin.com/linux/v6.12.2/source/fs/namei.c#L4094

@@ -1,0 +1,24 @@
+diff --git a/fs/namei.c b/fs/namei.c
+index 4a4a22a08..bb1459989 100644
+--- a/fs/namei.c
++++ b/fs/namei.c
+@@ -4110,15 +4110,15 @@ EXPORT_SYMBOL(user_path_create);
+ int vfs_mknod(struct mnt_idmap *idmap, struct inode *dir,
+ 	      struct dentry *dentry, umode_t mode, dev_t dev)
+ {
+-	bool is_whiteout = S_ISCHR(mode) && dev == WHITEOUT_DEV;
++	//bool is_whiteout = S_ISCHR(mode) && dev == WHITEOUT_DEV;
+ 	int error = may_create(idmap, dir, dentry);
+ 
+ 	if (error)
+ 		return error;
+ 
+-	if ((S_ISCHR(mode) || S_ISBLK(mode)) && !is_whiteout &&
+-	    !capable(CAP_MKNOD))
+-		return -EPERM;
++	//if ((S_ISCHR(mode) || S_ISBLK(mode)) && !is_whiteout &&
++	//    !capable(CAP_MKNOD))
++	//	return -EPERM;
+ 
+ 	if (!dir->i_op->mknod)
+ 		return -EPERM;
