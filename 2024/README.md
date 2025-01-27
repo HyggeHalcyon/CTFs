@@ -41,6 +41,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Cyber Jawara | Jeopardy | Project Sekai Cabang Indo | 3rd | - |
 | TSA Cyber Champion | Jeopardy | HCS - Murid Mentor | 7 / 239 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/tsa-cyber-champion) |
 | NCW CTF Finals | Jeopardy | Times heals all sorrows .... | 2nd / 10 | - |
 | NCW CTF Quals | Jeopardy | Times heals all sorrows .... | 9 / 54 | [Gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2024/national-cyber-week-quals) |
