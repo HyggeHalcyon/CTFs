@@ -1,0 +1,23 @@
+# Nmap 7.94SVN scan initiated Sun Feb  2 09:11:34 2025 as: nmap -sC -sV -oA nmap/infiltrate -vv 10.1.2.232
+Warning: Hit PCRE_ERROR_MATCHLIMIT when probing for service http with the regex '^HTTP/1\.1 \d\d\d (?:[^\r\n]*\r\n(?!\r\n))*?.*\r\nServer: Virata-EmWeb/R([\d_]+)\r\nContent-Type: text/html; ?charset=UTF-8\r\nExpires: .*<title>HP (Color |)LaserJet ([\w._ -]+)&nbsp;&nbsp;&nbsp;'
+Nmap scan report for 10.1.2.232
+Host is up, received echo-reply ttl 63 (0.29s latency).
+Scanned at 2025-02-02 09:11:35 +07 for 19s
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 9.6p1 Ubuntu 3ubuntu13.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 5b:1e:7c:7d:03:20:9d:60:ef:3d:a8:ba:ff:b1:a5:ec (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAcnp7gp5EdPdU2hY/458FUumr0cRfD8qp3LsVvXCfbJnnQqaUrG6e2PkM2Jy0aHBup2YVZING6ueH5/TAHg43M=
+|   256 86:8c:cc:19:83:d4:f9:4d:be:14:94:d0:a4:d0:4d:3c (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJk62mLYqcLSqe4fem/DEEZuuEBayn5L/BrVb0fOBwC7
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.58 ((Ubuntu))
+|_http-title: Apache2 Ubuntu Default Page: It works
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb  2 09:11:54 2025 -- 1 IP address (1 host up) scanned in 19.32 seconds

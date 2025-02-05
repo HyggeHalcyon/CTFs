@@ -8,6 +8,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Netcomp 3.0 Finals | Boot2Root | Fried Fermented Soybean | 1st / 15 | - |
 | Netcomp 3.0 Quals | Jeopardy | Fried Fermented Soybean | 1st / 82 | - |
 | TECHOMFEST Quals | Jeopardy | ぎゅっと。 | 4 / 54 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/techomfest-quals) |
 

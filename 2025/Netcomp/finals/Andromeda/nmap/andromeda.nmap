@@ -1,0 +1,52 @@
+# Nmap 7.94SVN scan initiated Sun Feb  2 09:56:12 2025 as: nmap -sC -sV -oA nmap/andromeda -vv 10.1.2.233
+Increasing send delay for 10.1.2.233 from 0 to 5 due to 179 out of 596 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 10 to 20 due to 11 out of 17 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 20 to 40 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 40 to 80 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 80 to 160 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 160 to 320 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 320 to 640 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.1.2.233 from 640 to 1000 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for 10.1.2.233
+Host is up, received echo-reply ttl 63 (0.27s latency).
+Scanned at 2025-02-02 09:56:13 +07 for 383s
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+21/tcp open  ftp     syn-ack ttl 63 vsftpd 3.0.5
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| drwxr-xr-x    6 33       33           4096 Jun 15  2022 assets
+| -rw-rw-r--    1 0        0          389781 Jan 28 11:20 backup.zip
+| drwxr-xr-x    2 33       33           4096 Jan 28 06:31 favicon
+| drwxr-xr-x    2 33       33           4096 Jan 28 06:31 forms
+| -rwxr-xr-x    1 33       33          22933 Jan 28 20:11 index.html
+|_-rwxr-xr-x    1 33       33          81961 Jun 15  2022 logo.png
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.18.200.111
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 4
+|      vsFTPd 3.0.5 - secure, fast, stable
+|_End of status
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 9.7p1 Ubuntu 7ubuntu4.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 db:34:e2:2a:70:95:3a:c8:51:d7:77:83:7a:ad:5e:6e (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAdr1EWXf0usZWBpHS9ImffhKFA/41uVgyGFegTNr8Bl2qOi97cftXi0pX/ai0EU6rRdCV2IHKG1o6IIpeHsfz8=
+|   256 5f:5d:47:65:c9:12:9c:0c:4e:66:79:56:cd:1b:96:b6 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEf5kxGMXpjn8aTjBrPiGOScwzJkkNB9gv36TuVr7MrJ
+80/tcp open  http    syn-ack ttl 63 Apache httpd
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-title: Andromeda Associate
+|_http-server-header: Apache
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb  2 10:02:36 2025 -- 1 IP address (1 host up) scanned in 384.28 seconds
