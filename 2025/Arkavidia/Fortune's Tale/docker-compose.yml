@@ -1,0 +1,8 @@
+name: pwn-fortune
+services:
+  chall:
+    build: .
+    ports:
+      - "8001:1337"
+    restart: on-failure
+    container_name: fortune

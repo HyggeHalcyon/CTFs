@@ -1,0 +1,8 @@
+name: pwn-www0
+services:
+  chall:
+    build: .
+    ports:
+      - "8002:1337"
+    restart: on-failure
+    container_name: www0
