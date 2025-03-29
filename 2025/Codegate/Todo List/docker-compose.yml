@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  todo_list:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "13379:13379"
+    restart: always

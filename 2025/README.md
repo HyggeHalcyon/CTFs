@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| CODEGATE 2025 CTF Preliminary | Project Sekai | 5th | - | 
 | TryHackMe Hackfinity Battle CTF | HCS | 2nd | - | 
 | Pearl CTF | HCS | 8 | - | 
 | synkCTF | ITSEC Asia | 11 | - | 
