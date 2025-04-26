@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| Cyber Apocalypse CTF 2025: Tales from Eldoria | HCSUI | 33 | - |
 | CODEGATE 2025 CTF Preliminary | Project Sekai | 5th | - | 
 | TryHackMe Hackfinity Battle CTF | HCS | 2nd | - | 
 | Pearl CTF | HCS | 8 | - | 
