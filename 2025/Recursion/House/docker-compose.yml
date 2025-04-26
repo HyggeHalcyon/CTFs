@@ -1,0 +1,9 @@
+name: pwn.2.house
+services:
+  house:
+    container_name: pwn.2.house
+    build: .
+    privileged: true
+    ports:
+      - "61008:1337"
+    restart: unless-stopped

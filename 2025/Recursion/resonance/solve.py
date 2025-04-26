@@ -1,0 +1,32 @@
+from Crypto.Util.number import *
+from math import gcd
+
+n = 111770793345804820020690311984922228732212102727602676901988313553800689367388021020706651939147596273462061051115059508832967580459122437570426967990587879949654119662322313597088936804792872005508886826106953402914725865768714088996917528951233871838841080604356594450950804972541864033466642989999477802249
+e = 65537
+dp = 9364274929958640432632605094208175813634242527602093818836277754041419671833582302810245961843707441134972038042507019491502141559364891880875094027898903
+
+ciphertext_hex = "61dc307461666487d1471003a00a4642907e596ad7a79afcb623d8da4ee0546fb0116ab47bd641dc036caa839dde3fa909bf55bdd3ca62131aa30e6687d6a80c36a68024595a40d9adb7a2c321afb7779a2d4601d10e2b689dec54ec5478d06558b5f09374730ca8ccfd65c8b724e32c552e178800b863a7870b681f13fb8b41"
+c = bytes_to_long(bytes.fromhex(ciphertext_hex))
+
+# Step 1: Try all divisors of (dp * e - 1)
+kdp_minus1 = dp * e - 1
+
+# Factor kdp_minus1 to find p-1
+def find_p(n, e, dp):
+    kdp_minus1 = dp * e - 1
+    for k in range(1, 1 << 20):  # reasonable bound for brute force
+        if kdp_minus1 % k == 0:
+            possible_p = kdp_minus1 // k + 1
+            if n % possible_p == 0:
+                return possible_p
+    return None
+
+p = find_p(n, e, dp)
+assert p is not None, "Failed to find p"
+
+q = n // p
+phi = (p - 1) * (q - 1)
+d = inverse(e, phi)
+m = pow(c, d, n)
+flag = long_to_bytes(m)
+print(flag)

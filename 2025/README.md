@@ -13,6 +13,7 @@
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
 | Arkavidia 9.0 CTF Quals | Jeopardy | DitmawaITS, jadi reimburse biaya transport dan akomodasi lomba kah? :Clueless: | 3rd / 151 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/arkavidia-quals) |
+| Recursion 1.0 | Jeopardy | Praying for you 🕯️ O Great Mita 💝 | 1st | - |
 | Netcomp 3.0 Finals | Boot2Root | Fried Fermented Soybean | 1st / 15 | - |
 | Netcomp 3.0 Quals | Jeopardy | Fried Fermented Soybean | 1st / 82 | - |
 | TECHOMFEST Quals | Jeopardy | ぎゅっと。 | 4 / 54 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/techomfest-quals) |

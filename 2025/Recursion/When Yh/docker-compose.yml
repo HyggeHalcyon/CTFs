@@ -1,0 +1,9 @@
+name: pwn.4.whenyh
+services:
+  when-yh:
+    container_name: pwn.4.whenyh
+    build: .
+    privileged: true
+    ports:
+      - "61009:1337"
+    restart: unless-stopped
