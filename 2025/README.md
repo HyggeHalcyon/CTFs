@@ -3,7 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
-| Midnight Sun Quals | Project Sekai | 6 | - |
+| Midnight Sun Quals | Project Sekai | 3rd | - |
 | BYUCTF | HCS | 6 | - |
 | Cyber Apocalypse CTF 2025: Tales from Eldoria | HCSUI | 33 | - |
 | CODEGATE 2025 CTF Preliminary | Project Sekai | 5th | - | 
