@@ -3,6 +3,8 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| Midnight Sun Quals | Project Sekai | 6 | - |
+| BYUCTF | HCS | 6 | - |
 | Cyber Apocalypse CTF 2025: Tales from Eldoria | HCSUI | 33 | - |
 | CODEGATE 2025 CTF Preliminary | Project Sekai | 5th | - | 
 | TryHackMe Hackfinity Battle CTF | HCS | 2nd | - | 
@@ -13,6 +15,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Find IT CTF | Jeopardy | Sabar ya Azril | 1st | - |
 | Arkavidia 9.0 CTF Quals | Jeopardy | DitmawaITS, jadi reimburse biaya transport dan akomodasi lomba kah? :Clueless: | 3rd / 151 | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/arkavidia-quals) |
 | Recursion 1.0 | Jeopardy | Praying for you 🕯️ O Great Mita 💝 | 1st | - |
 | Netcomp 3.0 Finals | Boot2Root | Fried Fermented Soybean | 1st / 15 | - |
