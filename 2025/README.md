@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| SAS CTF Quals | P1G SEKAI | 2nd | - |
 | Midnight Sun Quals | Project Sekai | 3rd | - |
 | BYUCTF | HCS | 6 | - |
 | Cyber Apocalypse CTF 2025: Tales from Eldoria | HCSUI | 33 | - |
