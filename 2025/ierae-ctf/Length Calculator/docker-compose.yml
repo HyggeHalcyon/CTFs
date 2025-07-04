@@ -1,0 +1,10 @@
+services:
+  length-calculator:
+    build:
+      context: .
+    ulimits:
+      core: 0
+    ports:
+      - "33334:33334"
+    restart: unless-stopped
+    privileged: true

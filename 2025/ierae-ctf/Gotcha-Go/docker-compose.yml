@@ -1,0 +1,12 @@
+services:
+  gotcha-go:
+    build:
+      context: .
+    ulimits:
+      core: 0
+    ports:
+      - "33337:33337"
+    restart: unless-stopped
+    init: true
+    privileged: true
+    pid: "host"
