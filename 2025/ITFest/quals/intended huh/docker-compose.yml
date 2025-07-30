@@ -1,0 +1,6 @@
+services:
+  intended:
+    build: .
+    ports:
+      - 7010:5000
+    privileged: true

@@ -3,6 +3,8 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| HTB StackSmash CTF | ITSEC Asia | 2nd | - |
+| No Hack No CTF | HCS | 1st | - |
 | IERAE CTF | Project Sekai | 4th | - |
 | SAS CTF Quals | P1G SEKAI | 2nd | - |
 | Midnight Sun Quals | Project Sekai | 3rd | - |
@@ -17,6 +19,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| IT FEST CTF Quals | Jeopardy | HCS - kiseki jangan tinggalkan kami | 3rd* | - |
 | Find IT CTF | Jeopardy | Sabar ya Azril | 1st | - |
 | Arkavidia 9.0 CTF Finals | Jeopardy | DitmawaITS, jadi reimburse biaya transport dan akomodasi lomba kah? :Clueless: | 4th | - |
 | Arkavidia 9.0 CTF Finals | Jeopardy | DitmawaITS, jadi reimburse biaya transport dan akomodasi lomba kah? :Clueless: | 4th | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/arkavidia-quals) |
