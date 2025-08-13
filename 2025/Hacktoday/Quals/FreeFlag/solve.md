@@ -1,0 +1,1 @@
+cast send $WARMUP "solve(uint256,uint256)" 0x1092 0xaa289 -r local --account ctf

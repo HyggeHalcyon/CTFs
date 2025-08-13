@@ -19,6 +19,7 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| HackToday Quals | Jeopardy | HCS - linz & yqroo fans club | 2nd* | - | 
 | IT FEST CTF Quals | Jeopardy | HCS - kiseki jangan tinggalkan kami | 3rd* | - |
 | Find IT CTF | Jeopardy | Sabar ya Azril | 1st | - |
 | Arkavidia 9.0 CTF Finals | Jeopardy | DitmawaITS, jadi reimburse biaya transport dan akomodasi lomba kah? :Clueless: | 4th | - |
