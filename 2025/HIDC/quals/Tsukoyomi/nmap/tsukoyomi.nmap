@@ -1,0 +1,15 @@
+# Nmap 7.94SVN scan initiated Fri Aug 15 11:27:51 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -vv -oA nmap/tsukoyomi 10.1.2.224
+Nmap scan report for 10.1.2.224
+Host is up, received echo-reply ttl 63 (0.19s latency).
+Scanned at 2025-08-15 11:27:52 EDT for 28s
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.58 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+|_http-title: Tsukoyomi Project
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 15 11:28:20 2025 -- 1 IP address (1 host up) scanned in 29.17 seconds

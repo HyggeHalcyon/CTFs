@@ -1,0 +1,106 @@
+# Nmap 7.94SVN scan initiated Fri Aug 15 04:32:49 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -vv -oA nmap/hellgate 10.1.2.227
+Increasing send delay for 10.1.2.227 from 0 to 5 due to 240 out of 799 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 5 to 10 due to 11 out of 30 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 10 to 20 due to 11 out of 21 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 20 to 40 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 40 to 80 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 80 to 160 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 160 to 320 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 320 to 640 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.1.2.227 from 640 to 1000 due to 11 out of 12 dropped probes since last increase.
+Nmap scan report for 10.1.2.227
+Host is up, received echo-reply ttl 63 (0.41s latency).
+Scanned at 2025-08-15 04:32:50 EDT for 269s
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  REASON         VERSION
+22/tcp   open  ssh      syn-ack ttl 63 OpenSSH 9.6p1 Ubuntu 3ubuntu13.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 d7:79:ae:76:85:69:19:b0:6a:10:12:5e:75:e6:4f:d3 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGN3wbXPVAZau9BPS1fM23esM5Igg0woZ9ibpbDJFOJpUDxJhQ122Te0eYqS+oDzMOQx4tn0p0GRO7VcGCAK0n8=
+|   256 83:f1:2f:d8:6a:54:d4:56:1b:c1:ec:08:35:ee:be:65 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPVIVgtOm6ljFQp9JPabIiP8ZV67uqp8od1bK7F+O0Pn
+80/tcp   open  http     syn-ack ttl 63 nginx 1.24.0 (Ubuntu)
+|_http-server-header: nginx/1.24.0 (Ubuntu)
+|_http-title: MyCorp Portal
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+9002/tcp open  dynamid? syn-ack ttl 63
+| fingerprint-strings: 
+|   DNSStatusRequestTCP: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x64c0c66a11ca
+|     Enter the deployment note:
+|   DNSVersionBindReqTCP: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x5cce318331ca
+|     Enter the deployment note:
+|   GenericLines: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x63950669f1ca
+|     Enter the deployment note:
+|     [INFO] Note logged successfully: 
+|     [INFO] Exiting deployment logger.
+|   GetRequest: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x5f77d8b811ca
+|     Enter the deployment note:
+|     [INFO] Note logged successfully: GET / HTTP/1.0
+|     [INFO] Exiting deployment logger.
+|   HTTPOptions: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x586a937ba1ca
+|     Enter the deployment note:
+|     [INFO] Note logged successfully: OPTIONS / HTTP/1.0
+|     [INFO] Exiting deployment logger.
+|   NULL: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x63950669f1ca
+|     Enter the deployment note:
+|   RPCCheck: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x570470a5b1ca
+|     Enter the deployment note:
+|   RTSPRequest: 
+|     --- Simple Deployment Logging Utility v1.0 ---
+|     [DEBUG] Deployment log handler is located at: 0x644f94ddd1ca
+|     Enter the deployment note:
+|     [INFO] Note logged successfully: OPTIONS / RTSP/1.0
+|_    [INFO] Exiting deployment logger.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9002-TCP:V=7.94SVN%I=7%D=8/15%Time=689EF14D%P=x86_64-pc-linux-gnu%r
+SF:(NULL,87,"---\x20Simple\x20Deployment\x20Logging\x20Utility\x20v1\.0\x2
+SF:0---\n\[DEBUG\]\x20Deployment\x20log\x20handler\x20is\x20located\x20at:
+SF:\x200x63950669f1ca\nEnter\x20the\x20deployment\x20note:\n")%r(GenericLi
+SF:nes,CD,"---\x20Simple\x20Deployment\x20Logging\x20Utility\x20v1\.0\x20-
+SF:--\n\[DEBUG\]\x20Deployment\x20log\x20handler\x20is\x20located\x20at:\x
+SF:200x63950669f1ca\nEnter\x20the\x20deployment\x20note:\n\n\[INFO\]\x20No
+SF:te\x20logged\x20successfully:\x20\r\n\[INFO\]\x20Exiting\x20deployment\
+SF:x20logger\.\n")%r(GetRequest,DB,"---\x20Simple\x20Deployment\x20Logging
+SF:\x20Utility\x20v1\.0\x20---\n\[DEBUG\]\x20Deployment\x20log\x20handler\
+SF:x20is\x20located\x20at:\x200x5f77d8b811ca\nEnter\x20the\x20deployment\x
+SF:20note:\n\n\[INFO\]\x20Note\x20logged\x20successfully:\x20GET\x20/\x20H
+SF:TTP/1\.0\r\n\[INFO\]\x20Exiting\x20deployment\x20logger\.\n")%r(HTTPOpt
+SF:ions,DF,"---\x20Simple\x20Deployment\x20Logging\x20Utility\x20v1\.0\x20
+SF:---\n\[DEBUG\]\x20Deployment\x20log\x20handler\x20is\x20located\x20at:\
+SF:x200x586a937ba1ca\nEnter\x20the\x20deployment\x20note:\n\n\[INFO\]\x20N
+SF:ote\x20logged\x20successfully:\x20OPTIONS\x20/\x20HTTP/1\.0\r\n\[INFO\]
+SF:\x20Exiting\x20deployment\x20logger\.\n")%r(RTSPRequest,DF,"---\x20Simp
+SF:le\x20Deployment\x20Logging\x20Utility\x20v1\.0\x20---\n\[DEBUG\]\x20De
+SF:ployment\x20log\x20handler\x20is\x20located\x20at:\x200x644f94ddd1ca\nE
+SF:nter\x20the\x20deployment\x20note:\n\n\[INFO\]\x20Note\x20logged\x20suc
+SF:cessfully:\x20OPTIONS\x20/\x20RTSP/1\.0\r\n\[INFO\]\x20Exiting\x20deplo
+SF:yment\x20logger\.\n")%r(RPCCheck,87,"---\x20Simple\x20Deployment\x20Log
+SF:ging\x20Utility\x20v1\.0\x20---\n\[DEBUG\]\x20Deployment\x20log\x20hand
+SF:ler\x20is\x20located\x20at:\x200x570470a5b1ca\nEnter\x20the\x20deployme
+SF:nt\x20note:\n")%r(DNSVersionBindReqTCP,87,"---\x20Simple\x20Deployment\
+SF:x20Logging\x20Utility\x20v1\.0\x20---\n\[DEBUG\]\x20Deployment\x20log\x
+SF:20handler\x20is\x20located\x20at:\x200x5cce318331ca\nEnter\x20the\x20de
+SF:ployment\x20note:\n")%r(DNSStatusRequestTCP,87,"---\x20Simple\x20Deploy
+SF:ment\x20Logging\x20Utility\x20v1\.0\x20---\n\[DEBUG\]\x20Deployment\x20
+SF:log\x20handler\x20is\x20located\x20at:\x200x64c0c66a11ca\nEnter\x20the\
+SF:x20deployment\x20note:\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 15 04:37:19 2025 -- 1 IP address (1 host up) scanned in 269.72 seconds

@@ -1,0 +1,5 @@
+# Nmap 7.94SVN scan initiated Fri Aug 15 11:54:06 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -vv -p- -oA nmap/allport 10.1.2.225
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.1.2.225 ()	Status: Up
+Host: 10.1.2.225 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.58 ((Ubuntu))/, 1234/open/tcp//tcpwrapped///, 8080/open/tcp//http//Apache httpd 2.4.58 ((Ubuntu))/	Ignored State: closed (65532)
+# Nmap done at Fri Aug 15 13:12:40 2025 -- 1 IP address (1 host up) scanned in 4714.32 seconds

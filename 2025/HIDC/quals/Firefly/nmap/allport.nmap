@@ -1,0 +1,23 @@
+# Nmap 7.94SVN scan initiated Fri Aug 15 11:54:06 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -vv -p- -oA nmap/allport 10.1.2.225
+Increasing send delay for 10.1.2.225 from 0 to 5 due to 11 out of 31 dropped probes since last increase.
+Warning: Hit PCRE_ERROR_MATCHLIMIT when probing for service http with the regex '^HTTP/1\.1 \d\d\d (?:[^\r\n]*\r\n(?!\r\n))*?.*\r\nServer: Virata-EmWeb/R([\d_]+)\r\nContent-Type: text/html; ?charset=UTF-8\r\nExpires: .*<title>HP (Color |)LaserJet ([\w._ -]+)&nbsp;&nbsp;&nbsp;'
+Nmap scan report for 10.1.2.225
+Host is up, received echo-reply ttl 63 (0.19s latency).
+Scanned at 2025-08-15 11:54:06 EDT for 4714s
+Not shown: 65532 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON         VERSION
+80/tcp   open  http       syn-ack ttl 63 Apache httpd 2.4.58 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-title: Apache2 Ubuntu Default Page: It works
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+1234/tcp open  tcpwrapped syn-ack ttl 63
+8080/tcp open  http       syn-ack ttl 63 Apache httpd 2.4.58 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-server-header: Apache/2.4.58 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 15 13:12:40 2025 -- 1 IP address (1 host up) scanned in 4714.32 seconds

@@ -1,0 +1,39 @@
+# Nmap 7.94SVN scan initiated Fri Aug 15 00:34:47 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -vv -oA nmap/oversight 10.1.2.221
+Increasing send delay for 10.1.2.221 from 0 to 5 due to 169 out of 562 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 5 to 10 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 10 to 20 due to 12 out of 38 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 20 to 40 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 40 to 80 due to 11 out of 16 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 80 to 160 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 160 to 320 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 320 to 640 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.1.2.221 from 640 to 1000 due to 11 out of 11 dropped probes since last increase.
+Warning: Hit PCRE_ERROR_MATCHLIMIT when probing for service http with the regex '^HTTP/1\.1 \d\d\d (?:[^\r\n]*\r\n(?!\r\n))*?.*\r\nServer: Virata-EmWeb/R([\d_]+)\r\nContent-Type: text/html; ?charset=UTF-8\r\nExpires: .*<title>HP (Color |)LaserJet ([\w._ -]+)&nbsp;&nbsp;&nbsp;'
+Nmap scan report for 10.1.2.221
+Host is up, received echo-reply ttl 63 (0.20s latency).
+Scanned at 2025-08-15 00:34:48 EDT for 420s
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 8.4p1 Debian 5+deb11u5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 b6:0b:2f:f8:35:ef:63:68:8e:1c:c9:2f:c7:30:35:45 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDC0SoBgOQ4mu3XCS1bmWFAWRoY4mKXTkm7fRmWN5FS6sErYg5h/BBdt7F/WhT2mexGgfatA4XjSItw3vaaVLbkOOKYIFMxAwrs53OtuZgJtlJpHtmE/UlQg13if6gXrcSpqOp66mAWozFsaQgzW2G69Zl6oRQdtuA64RzNk6YSOLIYezTHOrIzek6MGYHVmY3bP4JGq7xHuGO4ivR+uZg1utPTOmLuc98T/yrbJLCcHUr+XVXgMJIW69lpG+vE30aznBHH4NUR0xujdoGgjUB82CxeAVQeIg261oCCFGQgS2QqBW4Hg5CVPnR7NsOfggg4gf4r7gca86/EI04UrNHBnS6KLdvQEFmgb7gSZmXneI4P7mC0c3q2vsVjAnNP33KSi0sQPKLlProc765WZJXwwzZ5lLW52R0rtTJE0+4sxHgXfAar6fQqbduvB0b5TIWpgl0JNINoPjXz8qk9S4CzzEEI3J2zx+tUit7fmnblcrYeEARGizHBbmWiMdPZYyE=
+|   256 a5:1f:1e:30:0f:d3:f7:cc:4f:8b:c3:cf:11:25:3e:bd (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBiEhsNb1qhJGRLg2YhchcG+gTAKnYkjbfJ38NSTJL/Sq5gh3QL1BlxlnlGqxNhubZVoOJS8ulFIpTTXeVA19JM=
+|   256 dc:93:8a:46:c7:fb:c5:63:ac:38:45:ce:fc:3c:e9:5e (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINAjhq3Tj9xL5gEwsIhNnC7s1Eo4ljTb+o5o19JFprfi
+80/tcp   open  http    syn-ack ttl 63 nginx 1.18.0
+|_http-server-header: nginx/1.18.0
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-title: Sudut Kode Andi
+8080/tcp open  http    syn-ack ttl 63 nginx 1.18.0
+| http-methods: 
+|_  Supported Methods: OPTIONS HEAD GET
+|_http-title: Home - DevStack Forum
+|_http-server-header: nginx/1.18.0
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 15 00:41:48 2025 -- 1 IP address (1 host up) scanned in 420.59 seconds

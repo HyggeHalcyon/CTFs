@@ -1,0 +1,6 @@
+Name        ID            Password
+Andi Pratama    3175091201990001    Andi@1999!
+Siti Nurhaliza    3204051607950012    S!ti_795pass
+Budi Santoso    3374012202880003    BudiS#88x
+Dewi Lestari    3210040511980007    Dew!_1198$
+Rizky Maulana    3674023010910005    RzkM@9105!
