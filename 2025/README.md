@@ -19,7 +19,9 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
-| CyberBreaker Development Quals | Jeopardy | HyggeHalcyon | ? | - |
+| Compfest 17 Quals | Jeopardy | Ak Jg Mw Ottersec | - | - |
+| CyberBreaker Development Finals | Jeopardy | HyggeHalcyon | 4th / 30 | - |
+| CyberBreaker Development Quals | Jeopardy | HyggeHalcyon | - | - |
 | HIDC Quals | Jeopardy & Boot2Root | Tempe Goreng | 3rd | - | 
 | HackToday Quals | Jeopardy | HCS - linz & yqroo fans club | 2nd* | - | 
 | IT FEST CTF Quals | Jeopardy | HCS - kiseki jangan tinggalkan kami | 3rd* | - |

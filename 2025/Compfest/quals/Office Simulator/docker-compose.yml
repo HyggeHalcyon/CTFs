@@ -1,0 +1,12 @@
+services:
+  office_simulator:
+    build: .
+    restart: always
+    ports:
+      - 7002:1338
+    read_only: true
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M

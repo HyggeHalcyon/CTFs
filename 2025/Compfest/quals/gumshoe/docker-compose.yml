@@ -1,0 +1,11 @@
+services:
+  gumshoe:
+    build: .
+    restart: always
+    ports:
+      - 7001:1337
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M
