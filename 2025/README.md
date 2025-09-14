@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| Alfa Surfing | Pepekai | 6th | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/alfa-surfing#chill-day) |
 | HTB StackSmash CTF | ITSEC Asia | 2nd | - |
 | No Hack No CTF | HCS | 1st | - |
 | IERAE CTF | Project Sekai | 4th | - |

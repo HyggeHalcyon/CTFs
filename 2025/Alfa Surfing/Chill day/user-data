@@ -1,0 +1,1 @@
+#cloud-config disable_root: false ssh_pwauth: true users: - name: alfactf create_home: true chpasswd: list: | alfactf:alfayolo expire: false

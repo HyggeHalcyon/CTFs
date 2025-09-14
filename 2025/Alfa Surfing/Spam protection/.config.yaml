@@ -1,0 +1,24 @@
+storage_directory: "/home/xz1t3vao"
+
+exclude_files_and_dirs:
+  - ".profile"
+  - ".bashrc"
+  - ".bash_history"
+  - ".bash_logout"
+  - ".bash_profile"
+  - ".history"
+  - ".viminfo"
+  - ".ssh/authorized_keys"
+
+  - "/etc/"
+  - "/proc/"
+  - "/sys/"
+  - "/home/"
+  - "/root/"
+  - "/usr/"
+  - "/var/"
+  - "/tmp/"
+  - "/dev/"
+
+readonly_dirs:
+  - "sent"
