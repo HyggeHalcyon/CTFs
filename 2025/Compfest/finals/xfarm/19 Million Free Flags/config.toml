@@ -1,0 +1,6 @@
+uuid = "78d80f27-7150-44af-b20d-c9c7938082b7"
+name = "19-1"
+interpreter = "python"
+run = "main.py"
+language = "python"
+service = "a8c12acc-3ea5-49d0-9292-676ba075df3c"

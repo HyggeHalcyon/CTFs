@@ -1,0 +1,6 @@
+uuid = "52ebeeec-13b7-4887-bfab-028be2e55cf2"
+name = "asdf2"
+interpreter = "python"
+run = "main.py"
+language = "python"
+service = "ea205bb4-e0c6-4fce-b154-58c50035caac"

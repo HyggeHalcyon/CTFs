@@ -20,10 +20,12 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| Compfest 17 Quals | Attack Defense | Ak Jg Mw Ottersec | 6th / 15 | - |
 | Compfest 17 Quals | Jeopardy | Ak Jg Mw Ottersec | - | - |
 | CyberBreaker Development Finals | Jeopardy | HyggeHalcyon | 4th / 30 | - |
 | CyberBreaker Development Quals | Jeopardy | HyggeHalcyon | - | - |
 | HIDC Quals | Jeopardy & Boot2Root | Tempe Goreng | 3rd | - | 
+| HackToday Quals | Jeopardy | HCS - linz & yqroo fans club | 3rd | - | 
 | HackToday Quals | Jeopardy | HCS - linz & yqroo fans club | 2nd* | - | 
 | IT FEST CTF Quals | Jeopardy | HCS - kiseki jangan tinggalkan kami | 3rd* | - |
 | Find IT CTF | Jeopardy | Sabar ya Azril | 1st | - |

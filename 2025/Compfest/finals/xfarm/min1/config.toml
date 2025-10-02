@@ -1,0 +1,6 @@
+uuid = "b051fa01-020f-46ef-abb7-a390fd642ea2"
+name = "min1"
+interpreter = "python"
+run = "main.py"
+language = "python"
+service = "99972363-2504-4ba0-a528-03c100d100b9"
