@@ -1,0 +1,1 @@
+forge create ./contracts/Setup.sol:Setup --rpc-url local --account local --value 10000000000000000000 --broadcast

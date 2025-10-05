@@ -20,10 +20,11 @@
 ## Local Events
 | Event | Type | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: |  :---: | :---: |
+| WreckIT 6.0 | Jeopardy | anti gatekeep gatekeep club | 5th | - |
 | Compfest 17 Quals | Attack Defense | Ak Jg Mw Ottersec | 6th / 15 | - |
 | Compfest 17 Quals | Jeopardy | Ak Jg Mw Ottersec | - | - |
 | CyberBreaker Development Finals | Jeopardy | HyggeHalcyon | 4th / 30 | - |
-| CyberBreaker Development Quals | Jeopardy | HyggeHalcyon | - | - |
+| CyberBreaker Development Quals | Jeopardy | HyggeHalcyon | - | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/cyber-breaker-development-quals) |
 | HIDC Quals | Jeopardy & Boot2Root | Tempe Goreng | 3rd | - | 
 | HackToday Quals | Jeopardy | HCS - linz & yqroo fans club | 3rd | - | 
 | HackToday Quals | Jeopardy | HCS - linz & yqroo fans club | 2nd* | - | 
