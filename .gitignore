@@ -5,3 +5,4 @@ shellcode.bin
 *.zip
 *.tar
 *.gz
+*.7z

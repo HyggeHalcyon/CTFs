@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  vertical_tables:
+    build: .
+    ports:
+      - "1337:5000"
+      - "4444:4444"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1000M
+    read_only: true
+    cap_drop:
+      - all
+    privileged: true
+    

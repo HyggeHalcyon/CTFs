@@ -3,6 +3,7 @@
 ## International Events
 | Event | Team Banner | Rank | Writeup |
 | --- | :---: |  :---: | :---: |
+| Securinets Quals | ITSEC Asia | 44 | [blog](https://nordrljos.dev/CTFs/2025/securinets.html) |
 | Alfa Surfing | Pepekai | 6th | [gitbook](https://hyggehalcyon.gitbook.io/page/ctfs/2025/alfa-surfing#chill-day) |
 | HTB StackSmash CTF | ITSEC Asia | 2nd | - |
 | No Hack No CTF | HCS | 1st | - |
